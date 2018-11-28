@@ -1,0 +1,92 @@
+/*playercard*/
+#playercard{
+	position:relative;
+	overflow:hidden;
+	height:100%;
+	overflow:auto;
+}
+.pl-box{
+	position:relative;
+	margin:0px 0px;
+	padding:5px 10px;
+	font-size:13px;
+	line-height:15px;
+}
+.pl-uname, .pl-aname{
+	font-size:15px;
+}
+.pl-line{
+	height:16px;
+	line-height:16px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.pl-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	height:18px;
+	line-height:18x;
+	clear:both;
+	margin:8px 0px 0px 0px;
+}
+.pl-part-left, .pl-part-right{
+	position:relative;
+	float:left;
+	width:47%;
+}
+.pl-part-right{
+	float:right;
+}
+.pl-achievs{
+	height:245px;
+	overflow:auto;
+}
+.pl-achiev{
+	float:left;
+	margin:4px;
+	width:60px;
+	height:60px;
+	background-size:contain;
+}
+.pl-totals{
+	position:relative;
+	margin:0px 0px;
+	height:2px;
+}
+.pl-totals-bar{
+	position:relative;
+	height:100%;
+	width:50%;
+	float:left;
+	z-index:1;
+}
+.pl-totals-bar-bg{
+	position:absolute;
+	top:0;
+	height:100%;
+	z-index:1;
+}
+.pl-input, #scountry{
+	display:block;
+	height:16px;
+	line-height:16px;
+	width:122px;
+}
+#scountry{
+	width:130px;
+	height:18px;
+	line-height:18px;
+}
+.pl-btn-ico{
+	display:block;
+	float:right;
+	width:20px;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	opacity:0.5;
+	cursor:pointer;
+}
+.pl-btn-ico:hover{
+	opacity:1.0;
+}

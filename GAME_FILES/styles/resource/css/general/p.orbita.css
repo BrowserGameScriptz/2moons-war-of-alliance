@@ -1,0 +1,364 @@
+/*flight_content*/
+#orbita-content{
+	position:absolute;
+	left:0;right:0;
+	top:0; bottom:0;
+	overflow:hidden;
+	/*width:980px;*/
+}
+#or-left{
+	position:absolute;
+	left:0; top:0; 
+	bottom:0;
+	width:285px;
+	padding:0 10px 0 10px;
+}
+#or-right{
+	position:absolute;
+	right:0; top:0; 
+	bottom:0;
+	width:100px;
+}
+#or-center{
+	position:absolute;
+	left:315px; right:110px; 
+	top:5px; bottom:0;
+	overflow:auto;
+}
+
+/*#or-left*/
+#or-left .fl-fleet{
+	top:50px;
+	left:10px; 
+	right:5px;
+}
+#or-left .fl-fleet-groop{
+	height:20px;
+	line-height:20px;
+}
+/*or-planets*/
+.or-planets{
+	width:430px;
+}
+.or-planet{
+	left:0;
+	background: rgba(5,195,240,0.10);
+}
+.or-planet-name{
+	width:80px;
+	left:40px;
+}
+.or-planet-coord{
+	position:absolute;
+	background: rgba(5,195,240,0.10);
+	left:130px;
+	width:100px;
+	text-align:center;
+}
+.or-moon{
+	background:none;
+	left:230px;
+}
+.or-debris{
+	background-color: rgba(5,195,240,0.10);
+	width:100px;
+	left:290px;
+}
+.or-pfund{
+	position:absolute;
+	top:0; bottom:0;
+	width:40px;
+	left:390px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.or-cur{
+	opacity:0.3;
+}
+/*or-menu*/
+.or-menu{
+	margin:10px;
+}
+.or-menu-btn{
+	height:25px;
+	text-align:right;
+	padding-right:5px;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin-bottom:10px;
+}
+/*or-expeditions*/
+.or-expeditions{
+	position:absolute;
+	left:0; right:0;
+	bottom:0;
+	top:50px;
+	overflow:auto;
+}
+.or-ex-box{
+	margin:5px;
+}
+.or-ex-box .build-img{
+	left:0;
+}
+.or-ex-box .build-prices{
+	left:100px;
+}
+/*or-battlesim*/
+#or-bs{
+	position:absolute;
+	left:10px;
+	right:110px;
+	top:0; bottom:0;
+	overflow:hidden;
+}
+#or-bs-box{
+	position:absolute;
+	left:0px;right:0px;
+	top:0; bottom:0;
+	overflow:hidden;
+	width:880px;
+}
+.or-bs-att, .or-bs-def{
+	position:absolute;
+	height:45px;
+	left:10px;
+	top:5px;
+}
+.or-bs-def{
+	text-align:right;
+	left:auto;
+	right:10px;
+}
+.or-bs-name{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+}
+.or-bs-ress{
+	position:absolute;
+	text-align:center;
+	height:45px;
+	left:0; right:0;
+	width:480px;
+	top:5px;
+}
+.or-bs-res-row{
+	position:relative;
+	height:25px;
+	line-height:25px;
+	margin:0 5px;
+	width:150px;
+	float:left;
+}
+.or-bs-res-input{
+	position:relative;
+	display: block;
+	text-align:right;
+	height:22px;
+	line-height:22px;
+	padding-left:20px !important;
+	width:128px;
+	z-index:1;
+}
+.or-bs-res-ico{
+	position:absolute;
+	left:3px; top:3px;
+	height:18px;
+	width:18px;
+	z-index:2
+}
+.or-bs-bg{
+	position:absolute;
+	text-align:center;
+	left:0; right:0;
+	width:270px;
+	top:50px; bottom:0;
+}
+.or-bs-slots{
+	position:absolute;
+	height:35px;
+	left:10px;
+	right:170px;
+	overflow:auto;
+	bottom:0px;
+}
+#or-bs-submit{
+	position:absolute;
+	height:25px;
+	line-height:25px;
+	width:150px;
+	right:10px;
+	bottom:5px;
+}
+/*or-bs-conent*/
+#or-bs-conent{
+	position:absolute;
+	top:50px;
+	left:0;
+	right:0;
+	bottom:50px;
+	overflow:auto;
+}
+.or-bs-center, .or-bs-left, .or-bs-right{
+	position:absolute;
+	width:250px;
+	height:100%;
+	left:10px; 
+	right:10px;
+	overflow:hidden;
+}
+.or-bs-left, .or-bs-right{
+	text-align:center;
+	width:280px;
+	right:auto;
+}
+.or-bs-right{	
+	left:auto;
+	right:10px;
+}
+.or-bs-row{
+	position:relative;
+	height:22px;
+	line-height:22px;
+	margin-bottom:2px;
+	overflow:hidden;
+}
+.or-bs-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid rgba(255,255,255,0.20);
+}
+.or-bs-input{
+	display:block;
+	height:20px;
+	width:150px;
+	text-align:center;
+	line-height:20px;
+	margin:0 auto;
+}
+.or-bs-row-i{
+	position:absolute;
+	width:22px;
+	height:22px;
+	top:0;
+	left:0;
+	background-color:rgba(5,195,240,0.07);
+	background-size:contain;
+	cursor:pointer;
+}
+.or-bs-row-n{
+	position:absolute;
+	top:0;
+	left:30px;
+	right:10px;
+	height:22px;
+	cursor:pointer;
+}
+.or-bs-reset{
+	font-family: Arial, Geneva, sans-serif;
+	color:#BFBFBF;
+	cursor:pointer;
+}
+.or-bs-reset:hover{
+	color:#fff;
+}
+/*or-bs-slots-btn*/
+.or-bs-slots-t{
+	float:left;
+	margin-top:5px;
+}
+.or-bs-slots-btn{
+	margin-right:10px;
+	width:60px;
+	height:25px;
+}
+.or-bs-slots-add{
+	background-size:contain;
+	width:25px;
+}
+.tab-slot{
+	display:none;
+}
+/*wait*/
+#wait{
+	cursor:progress;
+}
+
+#or-acs{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	width:590px;
+}
+#or-acs-left{
+	position:absolute;
+	left:0;
+	top:0;
+	width:50%;
+	height:100%;
+}
+#or-acs-right{
+	position:absolute;
+	right:0;
+	top:0;
+	width:50%;
+	height:100%;
+}
+.or-acs-rows{
+	position:absolute;
+	right:10px; left:10px;
+	top:40px; bottom:0;
+	overflow:auto;
+}
+.or-acs-row{
+	margin-bottom:3px;
+	height:25px;
+}
+.or-acs-rows-names{
+	position:absolute;
+	right:10px; left:10px;
+	top:150px; bottom:0;
+	overflow:auto;
+}
+.or-acs-row-name{
+	line-height:18px;
+}
+.or-acs-rename{
+	font-size:12px;
+	color:#666;
+	cursor:pointer;
+}
+.or-acs-rename:hover{
+	color:#ccc;
+}
+.or-acs-invite{
+	position:absolute;
+	right:10px; left:10px;
+	top:40px;
+	height:40px;
+}
+.or-acs-invite-input{
+	position:relative;
+	display:block;
+	float:left;
+	height:23px;
+	line-height:23px;
+	width:175px;
+}
+.or-acs-invite-btn{
+	position:relative;
+	display:block;
+	float:right;
+	margin-right:5px;
+	width:80px;
+}
+.or-acs-msg{
+	color:#ccc;
+	width:100%;
+	margin-top:5px;
+	float:left;
+}

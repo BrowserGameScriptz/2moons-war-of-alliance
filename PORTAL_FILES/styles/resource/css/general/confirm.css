@@ -1,0 +1,123 @@
+#confirm{
+	display:none;
+	position:fixed;
+	left:0; right:0;
+	top:0; bottom:0;
+	background:rgba(0,0,0,0.50);
+	z-index:9999999;
+}
+#cm-box{
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	width:400px;
+	max-width:100%;
+	height:220px;
+	max-height:100%;
+	color:#DDD;
+    background: rgba(24,42,72,0.90);
+    border: 1px solid #8CAEE9;
+	box-shadow: 1px 1px 2px 1px rgba(0,0,0,1.00);
+}
+#cm-btn, #cm-btn-true, #cm-btn-false{
+	display:none;
+	position:absolute;
+	width:120px;
+	height:25px;	
+	left:0; right:0;
+	bottom:10px;
+	z-index:5;
+}
+#cm-btn-true{
+	left:auto;
+	right:10px;
+}
+#cm-btn-false{
+	left:10px; 
+	right:auto;
+}
+#cm-closed{
+	position: absolute;
+	top:3px;
+	right:3px;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-size:22px;
+	color:#000000;
+	background:rgba(5,195,241,0.20);
+	text-shadow:none;
+	cursor:pointer;
+	z-index:2;
+}
+#cm-closed:hover{
+	color:#FFFFFF;
+}
+/*Add in Classe*/
+#cm-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	text-align:left;
+	font-size:15px;
+	padding-left:10px;
+	height:30px;
+	line-height:34px;
+	border-bottom:1px solid rgba(255,255,255,0.20);
+}
+#cm-content{
+	position:absolute;
+	top:31px;
+	left:0;
+	right:0;
+	bottom:45px;
+	font-size:18px;	
+	padding:10px 10px 0px 10px;
+	overflow:auto;
+	z-index:1;
+}
+.cm-text-depiction{
+	text-align:center;
+	color:#DDD;	
+}
+.cm-text-depiction span{
+	color:#fff;
+}
+/*General Classes*/
+/*cm-alert*/
+.cm-alert #cm-btn{
+	display:block;
+}
+.cm-alert .btn-content{
+	left:0px;
+}
+.cm-alert .btn-ico{
+	display:none;
+}
+/*cm-cost*/
+.cm-cost #cm-btn{
+	display:block;
+}
+/*cm-action*/
+.cm-action #cm-btn-true, .cm-action #cm-btn-false{
+	display:block;
+}
+.cm-action .cm-title, .cm-action .btn-closed{
+	display:none;
+}
+/*cm-captcha*/
+.cm-action .cm-captcha, .cm-action .cm-in-captcha, .cm-action .cm-captcha-reload{
+	display:none;
+}
+.cm-cost .cm-captcha, .cm-cost .cm-in-captcha, .cm-cost .cm-captcha-reload{
+	display:none;
+}
+.cm-captcha #cm-box{
+	width:330px;
+	height:210px;
+}
+.cm-captcha #cm-btn{
+	display:block;
+}
+.cm-captcha .cm-text-depiction{
+	display:none;
+}

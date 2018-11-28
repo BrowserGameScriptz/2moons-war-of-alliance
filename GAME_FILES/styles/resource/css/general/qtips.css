@@ -1,0 +1,274 @@
+.flash_bg{	
+	display:block;
+	animation: flash_bg linear 1.5s infinite;
+	border: 1px solid rgba(186,255,181,0.80);
+	background-color:rgba(18,255,0,0.30);
+	position:absolute;
+	z-index:1;
+	left:-5px; right:-5px;
+	top:-5px; bottom:-5px;
+}
+
+@keyframes flash_bg{
+	0% {
+		background-color:rgba(0,255,0,0.01);
+	}
+	25% {
+		background-color:rgba(0,255,0,0.10);
+	}	
+	50% {
+		background-color:rgba(0,255,0,0.30);
+	}	
+	75% {
+		background-color:rgba(0,255,0,0.10);
+	}	
+	100% {
+		background-color:rgba(0,255,0,0.01);
+	}
+}
+/*class*/
+.picture{
+	position:absolute;
+	top:0; right:0;
+	left:0;	bottom:0;	
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.qt_msg{
+	text-align:center;
+	line-height:36px;
+	font-size:28px;
+	font-weight:bold;
+}
+.tr_btn_mount{
+	font-weight:lighter;
+	width:100px;
+	height:30px;
+	position:relative;
+	margin:5px auto;
+}
+/*--------------------------------------------------*/
+.qtip{
+	position: absolute;
+	left: -28000px;
+	top: -28000px;
+	display: none;
+
+	max-width: 280px;
+	min-width: 50px;
+
+	font-size: 10.5px;
+	line-height: 12px;
+
+	direction: ltr;
+
+	box-shadow: none;
+	padding: 0;
+}
+
+	.qtip-content{
+		position: relative;
+		padding: 5px 9px;
+		overflow: hidden;
+
+		text-align: left;
+		word-wrap: break-word;
+	}
+
+	.qtip-titlebar{
+		position: relative;
+		padding: 5px 35px 5px 10px;
+		overflow: hidden;
+
+		border-width: 0 0 1px;
+		font-weight: bold;
+	}
+
+	.qtip-titlebar + .qtip-content{ border-top-width: 0 !important; }
+
+	/* Default close button class */
+	.qtip-close{
+		position: absolute;
+		right: -9px; top: -9px;
+		z-index: 11; /* Overlap .qtip-tip */
+
+		cursor: pointer;
+		outline: medium none;
+
+		border: 1px solid transparent;
+	}
+
+		.qtip-titlebar .qtip-close{
+			right: 4px; top: 50%;
+			margin-top: -9px;
+		}
+
+		* html .qtip-titlebar .qtip-close{ top: 16px; } /* IE fix */
+
+		.qtip-titlebar .ui-icon,
+		.qtip-icon .ui-icon{
+			display: block;
+			text-indent: -1000em;
+			direction: ltr;
+		}
+
+		.qtip-icon, .qtip-icon .ui-icon{
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			border-radius: 3px;
+			text-decoration: none;
+		}
+
+			.qtip-icon .ui-icon{
+				width: 18px;
+				height: 14px;
+
+				line-height: 14px;
+				text-align: center;
+				text-indent: 0;
+				font: normal bold 10px/13px Tahoma,sans-serif;
+
+				color: inherit;
+				background: transparent none no-repeat -100em -100em;
+			}
+
+/* Applied to 'focused' tooltips e.g. most recently displayed/interacted with */
+.qtip-focus{}
+
+/* Applied on hover of tooltips i.e. added/removed on mouseenter/mouseleave respectively */
+.qtip-hover{}
+
+/* Default tooltip style */
+.qtip-default{
+	border: 1px solid #8CAEE9;
+	background-color: #182A48;
+	color: #DDD;
+}
+
+	.qtip-default .qtip-titlebar{
+		background-color: #6BA1FF;
+	}
+
+	.qtip-default .qtip-icon{
+		border-color: #CCC;
+		background: #F1F1F1;
+		color: #777;
+	}
+
+	.qtip-default .qtip-titlebar .qtip-close{
+		border-color: #AAA;
+		color: #111;
+	}
+
+
+.qtip .qtip-tip{
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 10;
+
+}
+
+	/* Opera bug #357 - Incorrect tip position
+	https://github.com/Craga89/qTip2/issues/367 */
+	x:-o-prefocus, .qtip .qtip-tip{
+		visibility: hidden;
+	}
+
+	.qtip .qtip-tip,
+	.qtip .qtip-tip .qtip-vml,
+	.qtip .qtip-tip canvas{
+		position: absolute;
+
+		color: #123456;
+		background: transparent;
+		border: 0 dashed transparent;
+	}
+
+	.qtip .qtip-tip canvas{ top: 0; left: 0; }
+
+	.qtip .qtip-tip .qtip-vml{
+		behavior: url(#default#VML);
+		display: inline-block;
+		visibility: visible;
+	}
+
+
+#qtip-overlay{
+	position: fixed;
+	left: 0; top: 0;
+	width: 100%; height: 100%;
+}
+
+	/* Applied to modals with show.modal.blur set to true */
+	#qtip-overlay.blurs{ cursor: pointer; }
+
+	/* Change opacity of overlay here */
+	#qtip-overlay div{
+		position: absolute;
+		left: 0; top: 0;
+		width: 100%; height: 100%;
+
+		background-color: black;
+
+		opacity: 0.7;
+		filter:alpha(opacity=70);
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	}
+	
+/* Dialog tooltip style */
+.qtip-dialog{
+	max-width:300px;
+	border: 2px solid #FFF;
+	background-color: #FFBE00;
+	color: #1B4662;
+	font-size:22px;
+	line-height:26px;
+	font-weight:bold;
+	text-shadow:none !important;
+}
+	.qtip-dialog .qtip-content{
+		text-align:center;
+	}
+
+	.qtip-dialog .qtip-titlebar{
+		background-color: #DFDFDF;
+	}
+
+	.qtip-dialog .qtip-icon{
+		border-color: #CCC;
+		background: #F1F1F1;
+		color: #777;
+	}
+
+	.qtip-dialog .qtip-titlebar .qtip-close{
+		border-color: #AAA;
+		color: #111;
+	}
+/* Designation tooltip style */
+.qtip-designation{
+	border: 1px solid #05c3f1;
+	font-size:16px;
+	line-height:18px;
+	background-color: #000000;
+	color: #fff;
+	text-shadow:none !important;
+}
+	.qtip-designation .qtip-content{
+		text-align:center;
+	}
+
+	.qtip-designation .qtip-titlebar{
+		background-color: #DFDFDF;
+	}
+
+	.qtip-designation .qtip-icon{
+		border-color: #CCC;
+		background: #F1F1F1;
+		color: #777;
+	}
+
+	.qtip-designation .qtip-titlebar .qtip-close{
+		border-color: #AAA;
+		color: #111;
+	}

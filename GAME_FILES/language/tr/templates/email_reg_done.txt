@@ -1,0 +1,10 @@
+Merhaba {USERNAME},
+
+
+{GAMENAME} Kayit oldugunuz icin tesekkur ederiz.
+
+Umariz evrenimize kayit oldugunuz icin mutlusunuzdur, 
+umariz burada hos ve eglenceli vakit gecireceksiniz.
+
+Saygilarimla,
+{GAMENAME}

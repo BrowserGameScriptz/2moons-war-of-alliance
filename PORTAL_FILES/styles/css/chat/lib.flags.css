@@ -1,0 +1,86 @@
+/* Xterium
+ * lib CSS flags
+ * by reemo
+ * 22.08.2016
+ */
+select#scountry {}
+select#scountry option{display:block; padding-left:25px; height:16px; line-height:16px; margin-bottom:1px; background-size: contain; background-repeat:no-repeat; background-position: left;}
+select#scountry option[value="ru"] {background-image:url(../images/flags/ru.png);}
+select#scountry option[value="ua"] {background-image:url(../images/flags/ua.png);}
+select#scountry option[value="by"] {background-image:url(../images/flags/by.png);}
+select#scountry option[value="kz"] {background-image:url(../images/flags/kz.png);}
+select#scountry option[value="md"] {background-image:url(../images/flags/md.png);}
+select#scountry option[value="ge"] {background-image:url(../images/flags/ge.png);}
+select#scountry option[value="bg"] {background-image:url(../images/flags/bg.png);}
+select#scountry option[value="gb"] {background-image:url(../images/flags/gb.png);}
+select#scountry option[value="us"] {background-image:url(../images/flags/us.png);}
+select#scountry option[value="lv"] {background-image:url(../images/flags/lv.png);}
+select#scountry option[value="lt"] {background-image:url(../images/flags/lt.png);}
+select#scountry option[value="ee"] {background-image:url(../images/flags/ee.png);}
+select#scountry option[value="eu"] {background-image:url(../images/flags/eu.png);}
+select#scountry option[value="de"] {background-image:url(../images/flags/de.png);}
+select#scountry option[value="ti"] {background-image:url(../images/flags/ti.png);}
+select#scountry option[value="fr"] {background-image:url(../images/flags/fr.png);}
+select#scountry option[value="tr"] {background-image:url(../images/flags/tr.png);}
+select#scountry option[value="es"] {background-image:url(../images/flags/es.png);}
+select#scountry option[value="pl"] {background-image:url(../images/flags/pl.png);}
+select#scountry option[value="pt"] {background-image:url(../images/flags/pt.png);}
+select#scountry option[value="ca"] {background-image:url(../images/flags/ca.png);}
+select#scountry option[value="cn"] {background-image:url(../images/flags/cn.png);}
+
+select#scountry option[value="xt"] {background-image:url(../images/flags/xt.png);}
+
+.f-ru{background-image:url(../images/flags/ru.png);}
+.f-ua{background-image:url(../images/flags/ua.png);}
+.f-by{background-image:url(../images/flags/by.png);}
+.f-kz{background-image:url(../images/flags/kz.png);}
+.f-md{background-image:url(../images/flags/md.png);}
+.f-ge{background-image:url(../images/flags/ge.png);}
+.f-bg{background-image:url(../images/flags/bg.png);}
+.f-gb{background-image:url(../images/flags/gb.png);}
+.f-us{background-image:url(../images/flags/us.png);}
+.f-lv{background-image:url(../images/flags/lv.png);}
+.f-lt{background-image:url(../images/flags/lt.png);}
+.f-ee{background-image:url(../images/flags/ee.png);}
+.f-eu{background-image:url(../images/flags/eu.png);}
+.f-de{background-image:url(../images/flags/de.png);}
+.f-it{background-image:url(../images/flags/it.png);}
+.f-fr{background-image:url(../images/flags/fr.png);}
+.f-tr{background-image:url(../images/flags/tr.png);}
+.f-es{background-image:url(../images/flags/es.png);}
+.f-pl{background-image:url(../images/flags/pl.png);}
+.f-pt{background-image:url(../images/flags/pt.png);}
+.f-ca{background-image:url(../images/flags/ca.png);}
+.f-cn{background-image:url(../images/flags/cn.png);}
+
+.f-xt{background-image:url(../images/flags/xt.png);}
+/*box*/
+.fbox-name{
+	display:block;
+	height:15px;
+	width:21px;
+	margin:6px 3px 0 0;
+	float:left;
+	background-size:contain;
+}
+.fbox-s-name, .fbox-g-name{
+	display:block;
+	text-align:left;
+	padding-left:25px;
+	background-position:left;
+	background-size:contain;
+	background-repeat:no-repeat;
+} 
+.fbox-g-name{
+	height:16px;
+	line-height:16px;
+	margin:7px 3px 7px 0px;
+	float:left;
+}
+.fbox-ai{
+	height:20px;
+	width:28px;
+	position: absolute;
+	left:0; top:0;
+	z-index:10;
+}

@@ -1,0 +1,65 @@
+#iframe-box{
+	position:absolute;
+	display:none;
+	margin:0;
+	top:80px;
+	bottom: 50px;
+	left:0;
+	right:0;
+	height:auto;	
+	z-index:2;
+	background:rgba(0,0,0,0.60);	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+60,0.65+60,0+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.60) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.60) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0.60) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#iframe-extra-pos{
+	position:absolute;
+	top:30px; bottom:0;
+	right:0; left:0;
+}
+#iframe-extra{
+	position:relative;
+	height:100%;
+	width:100%;
+	z-index:1;
+}
+#iframe-close{
+	position:absolute;
+	right:3px;
+	top:3px;
+	height:24px;
+	line-height:24px;
+	width:24px;
+	text-align:center;
+	background-color:rgba(5,195,241,0.20);
+	color:#000;
+	font-size:22px;
+	cursor:pointer;
+	text-shadow:none;
+	z-index:200;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}
+#iframe-close:hover{
+	color:#fff;
+}
+#iframe-preloader{
+	position:absolute;
+	display:none;
+	left:0;	right:0;
+	top:0; bottom:0;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.40) 0%, rgba(0,0,0,0.20) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.20) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0.20) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	z-index:100;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}

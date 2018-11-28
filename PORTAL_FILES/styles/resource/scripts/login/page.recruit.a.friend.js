@@ -1,0 +1,1 @@
+function UpdatePedingRAFLinks(){return $.get($BaseURL+"/ajax.php?phase=28",function(e){void 0===e.error?document.location.reload(!0):$.fn.WarcryAlertBox("open","<p>"+e.error+"</p>")},"json"),!1}

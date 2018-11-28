@@ -1,0 +1,103 @@
+/*research*/
+#pt-content{
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+}
+#pt-left{
+	position:absolute;
+	left:0;
+	top:0; bottom:0;
+	width:230px;
+	padding:10px;
+	overflow: auto;
+}
+#pt-right{
+	position:absolute;
+	right:0;
+	top:0; bottom:0;
+	width:230px;
+	padding:10px;
+	overflow: auto;
+}
+#pt-center{
+	position:absolute;
+	left:260px; right:260px;
+	top:0; bottom:0;
+	overflow: auto;
+}
+.pt-sep{
+	height:1px;
+	background:rgba(255,255,255,0.50);
+	margin:14px 0px;
+}
+.pt-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	margin-bottom:10px;
+	text-align:center;
+}
+.pt-in-text{
+	width:220px;
+	line-height:22px;
+	height:22px;
+	margin-bottom:10px;
+}
+.pt-label-mini{
+	width:80px;
+	float:left;
+	line-height:24px;
+	margin-bottom:5px;
+}
+.pt-in-mini{
+	text-align:center;
+	width:65px;
+	float:right;
+	height:22px;
+	margin-bottom:5px;
+}
+.pt-btn{
+	position:relative;
+	left:auto;
+	bottom:auto;
+	right:auto;
+	top:auto;
+	display:block;
+}
+.pt-list-row{
+	line-height:25px;
+	height:25px;
+	position:relative;
+	padding-left:25px;
+	text-align: right;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+	margin-bottom:5px;
+	cursor:help;
+}
+.pt-list-ico{
+	position:absolute;
+	left:4px; top:0; bottom:0;
+	width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+.pt-in-gname{
+	float:left;
+	width:90px;
+}
+.pt-btn-gname{
+	float:right;
+	width:120px;
+}
+/*pt-plaent-info*/
+#pt-plaent-info{
+	position:relative;
+	padding-left:100px;
+	height:120px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}

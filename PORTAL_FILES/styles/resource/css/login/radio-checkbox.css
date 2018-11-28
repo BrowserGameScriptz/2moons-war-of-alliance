@@ -1,0 +1,36 @@
+/* CUSTOM RADIO & CHECKBOX */
+.has-js .label_check, .has-js .label_radio {
+	display:inline-block;
+	}
+	.has-js .label_check p, .has-js .label_radio p {
+	vertical-align: top;
+	padding-top: 4px;
+	}
+	.has-js .label_check p {
+	padding-top: 2px;
+	}
+	.has-js .label_check div, .has-js .label_radio div { /* THIS IS OUR NEW INPUT */
+		width:26px; height:25px;
+		display:inline-block;
+		cursor:pointer;
+		background-color:transparent;
+		}
+		.has-js .label_check div {
+		background-image:url(images/misc/checkbox.png);
+		}
+		.has-js .label_radio div {
+		background-image:url(images/misc/radio-checkbox.png);
+		}
+	.has-js .label_check p, .has-js .label_radio p { display:inline-block;}
+	
+		.has-js .label_check div {background-position:-0px -0px;}
+		.has-js .label_check div:hover {background-position:-26px -0px;}
+		.has-js label.c_on div {background-position:-52px -0px;}
+		.has-js label.c_on div:hover {background-position:-78px -0px;}
+		
+		.has-js .label_radio div {background-position:-0px -0px;}
+		.has-js .label_radio div:hover {background-position:-24px -0px;}
+		.has-js label.r_on div {background-position:-48px -0px;}
+		.has-js label.r_on div:hover {background-position:-72px -0px;}
+	
+	.has-js .label_check input, .has-js .label_radio input { position: absolute; left: -9999px; }

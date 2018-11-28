@@ -1,0 +1,41 @@
+<h3>PROPRETY ACCOUNT</h3>
+<p>
+The owner of the account owner is a permanent e-mail address provided during registration. Each player is allowed to control a single account.
+</p>
+<h3>BASHING</h3>
+<p>It is not allowed to attack any given planet or moon owned by a player over 6 times in a single 24 hours period.</p>
+<p>Bashing is only allowed when your Alliance is at war with another Alliance.</p>
+<p>The war must be announced in the forum and both leaders must agree to the terms.</p>
+<p>The bashing rule only applies for active users and excludes misile attacks and espionage missions.</p>
+<h3>THE FLIGHT TIME OF THE FLEET</h3>
+<p>It is forbidden to send the fleet on a strange planet for more than 5 hours on one side without the consent of the player.</p>
+<p>* Violations are considered only fleet that went more than 5 hours and has not been canceled, sent the fleet for a period of more than 5 hours still not a violation if the fleet was canceled earlier than 5 hours after departure.</p>
+<h3>OBJECTIVE ATTACKS</h3>
+<p>Severely forbidden to send the fleet with the purpose to annoy the adversary. it is necessary that the attack has as objective that to destroy the hostile fleet or to take the resources. </p>
+<p>For example: to attach with 1 ship if he is aware of to lose ship is not allowed</p>
+<h3>USE OF UNDECLARED SOFTWARE BUGS</h3>
+<p>
+Undeclared features - the functionality of the Games, are not described or not described in the respective developer documentation, the use of which may be in breach of confidentiality, integrity or availability of information processed.
+</p>
+<p>Any use of undeclared capabilities and software bugs Games</p>
+<p>It is forbidden to use programming errors for personal gain.</p>
+<p>It prohibited the use of software errors that cause harm or other users of the game.</p>
+<p>It is forbidden to disseminate information about the program error to other users through the game resources (chat, forum, private messages)</p>
+<p>In order to limit cheating, misappropriation and multiple accounts, the WOA team reserves the right to block any account using a VPN, Internet proxy or other means to render an anonymous account.</p>
+<h3>SCRIPTING</h3>
+<p>Unauthorized impact on the server, and (or) code for the game. Authorize the impacts recognized approved (registered or licensed) by the Administration gaming plugins / add-ons that are installed on the side of the user's browser and modifies the appearance, information, action, etc., without interfering in the internal processes of the game.</p>
+<p>The creation and launch of unauthorized Administration bot or other automated (semi-automatic) program to commit any act aimed at the User's account or other accounts for pumping and (or) the enrichment of your account, as well as actions to chat games.</p>
+<h3>HACKING</h3>
+<p>It is forbidden to have access to your account (s) of third parties, the transmission of values to the game account (s) of third parties, as well as facilitating the transfer. In case of loss of possession of the property by selecting the account and theft (stealing) the password to your account (or e-mail address that is registered on your account) or by deception (or abuse) the owner of the trust account, the stolen property is not returned.</p>
+<h3>TRADING ACCOUNTS</h3>
+<p>
+Prohibited the transfer of your account (s) and / or access to others for a fee and / or charge, as well as the dissemination of information about the intention to commit such actions.</p>
+<h3>GAME RESOURCES</h3>
+<p>
+It is forbidden to trade (buying and / or selling) game objects and resources for real money, as well as advertising of trafficking. It prohibits any commercial advertising. It prohibited any fraud or attempted, directly or indirectly related with gaming objects or resources.
+</p>
+
+<h3>OTHER CONDITIONS</h3>
+<p>
+<b>For these and other violations of the rules of the game the user can be immediately, without any prior notice, denied the functional games, or this functionality may be limited in part.</b><b><br> </b><b>The administration reserves the right to modify the penalty for violations of the items at its discretion, depending on the severity of the offense.</b>
+</p>

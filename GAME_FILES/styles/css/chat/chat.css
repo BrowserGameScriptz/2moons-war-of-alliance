@@ -1,0 +1,121 @@
+#ichat{
+	position:relative;
+	height:100%;
+}
+#msg-box{
+	position:absolute;
+	top:30px;
+	bottom:45px;
+	left:0;
+	right:0;
+	overflow:auto;
+	overflow-x:hidden;
+	padding-bottom:3px;
+}
+#msg-box a{
+	font-weight:normal;
+	font-style:italic;
+	color: #EBC6FC;
+	text-decoration:none;
+}
+#msg-box a:hover{
+	color:#C514FF;
+}
+#chat-footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:45px;
+	overflow:hidden;
+}
+#msg-text-box{
+	display:block;
+	height:35px;
+	line-height:35px;
+	position:absolute;
+	left:10px;
+	right:232px;
+	top:0;
+}
+#msg-text{
+	width:98%;
+	padding:0px 1%;
+	font-size:18px;
+	height:33px;
+	line-height:33px;
+}
+#msg-btn{
+	height:35px;
+	line-height:35px;
+	position:absolute;
+	top:5px;
+	right:120px;
+	top:0px;
+	width:100px;
+}
+#msg-btn .btn{
+	height:100%;
+	line-height:inherit;
+}
+#silence{
+	color:#C4C4C4;
+	display:none;
+	height:35px;
+	line-height:35px;
+	position:absolute;
+	left:10px;
+	right:176px;
+	top:0;
+	padding-left:45px;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-image:url("../images/ico/mute.png");
+}
+/*chat-row*/
+.chat-row{
+	line-height:15px;
+	padding:2px 3px;
+}
+.chat-time{
+	color:#666;
+}
+.chat-name{
+	color:rgba(5,195,241,1.0);
+	cursor:pointer;
+}
+.chat-atag{
+	color:rgba(179,203,209,1.00);
+	cursor:pointer;
+}
+.chat-row img{
+	height:13px;
+	cursor:pointer;
+	opacity:0.8;
+}
+.chat-row img:hover{
+	opacity:1.0;
+}
+/*chat-mini*/
+.chat-mini .title-nav{
+	display:none;
+}
+.chat-mini #chat-footer{
+	display:none;
+}
+.chat-mini #msg-box{
+	top:0;
+	bottom:10px;
+	overflow:hidden;
+	right:176px;
+	padding-bottom:0px;
+}
+.chat-mini .chat-row{
+	height:13px;
+	line-height:13px;
+	width:100%;
+	/*overflow:hidden;*/
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

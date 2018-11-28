@@ -1,0 +1,39 @@
+#chat{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width:40%;
+	height:20%;
+	min-width:550px;
+	min-height:220px;
+	background:rgba(0,0,0,0.50);
+	z-index:9999999;
+	overflow:hidden;
+}
+#chat-close{
+	position: absolute;
+    right: 3px;
+    top: 3px;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    text-align: center;
+    background-color: rgba(5,195,241,0.20);
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+    text-shadow: none;
+    z-index: 200;
+}
+#chat-close:hover{
+	color:#fff;
+}
+.chat-mini{
+	height:42px !important;
+	min-height:42px !important;
+	background:none !important;
+	z-index:1 !important;
+}
+.chat-mini #chat-close{
+	display:none;
+}

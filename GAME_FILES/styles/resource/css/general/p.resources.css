@@ -1,0 +1,50 @@
+/*resources*/
+#rs-body{
+	width:1000px;
+}
+.rs-table, .rs-table td{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	font-size:11px;
+	border-left:0;
+	border-right:0;
+	text-align:right;
+	line-height:20px;
+
+}
+.rs-table select, .rs-table .btn{
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}
+.rs-ico{
+	width:20px;
+	height:20px;
+	cursor:default;
+}
+
+.rs-build-row{
+	position:relative;
+	text-align:left;
+	padding-left:25px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+}
+.rs-build-row .c-smoke{
+	font-family: Arial, Geneva, sans-serif;
+	font-size:13px;
+}
+.rs-build-row-i{
+	position:absolute;
+	left:0;
+	top:0;
+	width:20px;
+	height:20px;
+	background-size:contain;
+}
+.rs-btn-all{
+	float:right;
+	width:auto;
+	padding:0 20px;
+	margin:10px 0 0 10px;
+}

@@ -1,0 +1,193 @@
+/*overview*/
+#overview{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow:hidden;
+	z-index:1;
+}
+#ov-planet-mount{
+	width: 40%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: visible;
+	z-index:1;
+}
+#ov-planet{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+	margin-left: auto;
+	margin-right: 0;
+}
+#ov-planet .gl-img{
+	left:auto;
+	background-position: center right;
+}
+/*moon*/
+#ov-moon-mount{
+	width: 8%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 20%;
+	top: 25%;
+	bottom:auto;
+    overflow: visible;
+	z-index:3;
+}
+#ov-moon{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+    overflow: visible;
+	background-position:center right;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+/*debris*/
+#ov-debris-mount{
+	width: 25%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: auto;
+    bottom: 30%;
+    overflow: visible;
+	z-index:2;
+}
+#ov-debris{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+    overflow: visible;
+	background-position:center right;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+/*queue*/
+#ov-queue-mount{
+	position:absolute;
+	width:650px;
+	height:345px;
+	top:0; 
+	left:40px;
+	right:auto;
+	bottom:0;
+	z-index:3;
+}
+.ov-queue-btn-box{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	height:20px;
+	line-height:20px;
+	margin-bottom:5px;
+}
+.ov-queue-btn{
+	height:100%;
+	float:left;
+	width:140px;
+	cursor:pointer;
+	padding:0 10px;
+}
+.ov-queue-status{
+	height:100%;
+	float:left;
+	margin-left:5px;
+}
+.ov-queue-status-i{
+	float:left;
+	margin-top:2px;
+	height:16px;
+	width:16px;
+	margin-left:15px;
+}
+/*info*/
+#ov-info-mount{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	position:absolute;
+	right:10px;
+	bottom:60px;
+	z-index:4;
+}
+.ov-info-sep{
+	height:1px;
+	width:100%;
+	background:rgba(255,255,255,0.50)
+}
+.ov-info-head{
+	/*text-align:right;*/
+	width:180px;
+	cursor:pointer !important;
+	padding:0;
+}
+.ov-info-head:before{
+	content: '•••';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.ov-info-head:hover:before{
+	color:rgba(50,210,255,1.00);
+}
+#ov-i-debris:before{
+	content: '¤';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+.ov-info-block{
+	position:relative;
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	padding-right:20px;
+	cursor:help;
+}
+#ov-i-diameter:before, #ov-i-temp:before, #ov-i-debris:before{
+	content: 'Ø';
+	font-size:14px;
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+#ov-i-temp:before{
+	content: '°C';
+}
+#ov-i-debris:before{
+	content: '¤';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+#servertime{	
+	font-family: Arial, Geneva, sans-serif;
+	font-size:14px;
+}
+#servertime:before{
+	content: 't';
+	font-size:14px;
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}

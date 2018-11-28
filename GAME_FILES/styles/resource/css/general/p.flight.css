@@ -1,0 +1,208 @@
+/*flight_content*/
+#flight-content{
+	position:absolute;
+	left:0;right:0;
+	top:0; bottom:0;
+	overflow:hidden;
+	width:980px;
+}
+#flight-left{
+	position:absolute;
+	left:0; top:0; 
+	bottom:0;
+	width:175px;
+}
+#flight-right{
+	position:absolute;
+	right:0; top:0; 
+	bottom:0;
+	width:275px;
+}
+#flight-center{
+	position:absolute;
+	left:185px; right:280px; 
+	top:0; bottom:0;
+}
+/*fl-title*/
+.fl-title{
+	position:relative;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	font-size:15px;
+	text-align:center;
+	padding:10px 0;
+	cursor:default;
+	overflow:hidden;
+}
+.fl-title span{
+	font-family: Arial, Geneva, sans-serif;
+	font-size:13px;
+}
+/*fl-fleet*/
+.fl-fleet{
+	position:absolute;
+	overflow:auto;
+	top:58px; bottom:0;
+	left:0;	right:0;
+	margin:0;
+}
+.fl-fleet-groop{
+	position:relative;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	font-size:11px;
+	margin:10px 5px 5px 0;
+	border-bottom:1px solid rgba(255,255,255,0.50);
+	height:28px;
+	line-height:28px;
+}
+/*fl-fleet-row*/
+.fl-fleet-row{
+	position:relative;
+	height:25px;
+	margin-bottom:4px;
+}
+.fl-fleet-row-i{
+	position:absolute;
+	height:25px;
+	width:25px;
+	left:0; top:0;
+	background-size:contain;
+}
+.fl-fleet-row-n{
+	position:absolute;
+	overflow:hidden;
+	line-height:25px;
+	height:25px;
+	width:110px;
+	left:30px; top:0;
+}
+.fl-fleet-row-c{
+	position:absolute;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	overflow:hidden;
+	text-align:center;
+	color:#05b9e5;
+	line-height:25px;
+	height:25px;
+	width:135px;
+	left:145px; top:0;
+}
+.fl-fleet-row-input-div{
+	position:absolute;
+	line-height:25px;
+	height:25px;
+	width:220px;
+	left:285px; top:0;
+}
+.fl-fleet-row-input-min, .fl-fleet-row-input-max{
+	position:absolute;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	text-align:center;
+	left:0; top:0;
+	width:40px;
+	height:25px;
+	color:#CCCCCC;
+	cursor:pointer;
+}
+.fl-fleet-row-input-max{
+	right:0;
+	left:auto;
+}
+.fl-fleet-row-input-min:hover, .fl-fleet-row-input-max:hover{
+	background-color:rgba(5,190,230,0.20);
+	-moz-box-shadow: inset 0px 0px 0px 1px  rgba(255,255,255,0.05);
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.05);
+	box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.05);
+
+	color:#FFFFFF;
+}
+.fl-fleet-row-input{
+	position:absolute;
+	/*font-family: "BicubikRegular", Arial, Geneva, sans-serif;*/
+	height:23px;
+	width:122px;
+	text-align:center;
+	top:0;
+	left:45px; right:45px;
+}
+/*fl-mis*/
+.fl-mis{
+	height:30px;
+	margin-top:5px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.fl-mis-row{
+	position:relative;
+	text-align:right;
+	line-height:25px;
+	height:25px;
+	margin:0 10px 4px 10px;
+	background-position:left center;
+	background-repeat:no-repeat;
+	cursor:default;
+	z-index:1;
+}
+/*fl-select*/
+.fl-select{
+	height:23px;
+	width:70px;
+}
+/*fl-res*/
+.fl-res-row{
+	position:relative;
+	height:25px;
+	line-height:25px;
+	margin:5px 10px;
+}
+.fl-res-input{
+	width:132px;
+	text-align:right;
+	padding-left:27px !important;
+	z-index:1;
+}
+.fl-res-ico{
+	position:absolute;
+	left:51px; top:3px;
+	height:19px;
+	width:19px;
+	z-index:2
+}
+.fl-res-row-no-h{
+	height:auto;
+	line-height:15px;
+}
+.fl-btn{
+	margin-top:20px;
+}
+/*fl-res-storage*/
+.fl-res-storage{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	box-shadow:0px 0px 1px 1px rgba(0,0,0,0.35);
+	margin-bottom:15px;
+}
+.fl-res-storage-filling{
+	position:absolute;
+	left:0; top:0;
+	width:0;
+	height:25px;
+	/*transition*/
+	-moz-transition: width 1s ease-in-out;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+.fl-res-storage-count{
+	position:absolute;
+	left:30px; top:0;
+	right:50px;
+	height:25px;
+	text-align:left;
+}
+.fl-res-storage-percent{
+	position:absolute; 
+	top:0;
+	height:25px;
+	right:0px;
+}

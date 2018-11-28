@@ -1,0 +1,41 @@
+<h3>PROPRETY ACCOUNT</h3>
+<p>
+The owner of the account owner is a permanent e-mail address provided during registration. Each player is allowed to control a single account.
+</p>
+<h3>BASHING</h3>
+<p>Bu herhangi bir gezegen veya ayda bir oyuncu tarafından 24 saat süre içinde 6 kez saldırmak için izin verilmez</p>
+<p>Savaş sadece İttifak başka bir İttifak ile savaşta olduğunda izin verilir.</p>
+<p>Savaş forumda ilan edilmelidir ve her iki lider de şartları kabul etmek zorundadır.</p>
+<p>Savaş kuralı sadece aktif kullanıcılar için geçerlidir, Füze saldırıları ve casusluk görevleri dahil değildir.</p>
+<h3>FİLONUN UÇUŞ SAATİ</h3>
+<p>Bu filoyu, oyuncunun rızası olmadan bir tarafta 5 saatten fazla bir süre için yabancı bir gezegene göndermek yasaktır</p>
+<p>* ihlalleri yalnızca 5 saatten fazla giden ve iptal edilmeyen filo olarak kabul edilir, filonun kalkıştan 5 saatten daha erken iptal edilmesi durumunda, filoyu 5 saatten fazla bir süre için hala ihlal olarak kabul edilir. </p>
+<h3>HEDEF SALDIRILARI</h3>
+<p>Rakibi kızdırmak amacı ile filo göndermek yasaktır. Düşman filosunu yok etmek veya kaynakları için saldırı yapmak zorunludur. </p>
+<p>Örneğin: to attach with 1 ship if he is aware of to lose ship is not allowed</p>
+<h3>BİLDİRİLMEMİŞ YAZILIM HATALARINI KULLANIN</h3>
+<p>
+Bildirilmemiş Özellikler-oyunların işlevselliği, ilgili geliştirici belgelerinde açıklanmaz ve açıklanmayan bunların gizliliği, bütünlüğü veya bilginin kullanılabilirliğini ihlal edilebilir.
+</p>
+<p>Bildirilmemiş yetenekler ve yazılım hatalarının kullanımı</p>
+<p>Kişisel kazanç için programlama hataları kullanmak yasaktır.</p>
+<p>Bu yazılım hatalarının kullanımını yasaklanmıştır ve oyunun diğer kullanıcılarının zarar görmesine neden olur.</p>
+<p>Oyun kaynakları aracılığıyla diğer kullanıcılara program hatası hakkında bilgi vermek yasaktır (sohbet, Forum, özel mesajlar)</p>
+<p>Hile, hatasız ve birden fazla hesabı sınırlamak için, WOA ekibi, anonim bir hesabı işlemek için bir VPN, Internet proxy veya diğer araçları kullanarak herhangi bir hesabı engelleme hakkını saklı tutar</p>
+<h3>SCRIPTING</h3>
+<p>Sunucu üzerindeki yetkisiz etki ve oyun için (veya) kodu. Onaylı tanınan etkileri yetkilendirilmiş (kayıtlı veya lisanslı) Yönetim oyun eklentileri / Kullanıcı tarayıcısının tarafında yüklü eklentiler tarafından ve görünüm, bilgi, eylem, vb değiştirir, iç müdahale olmadan oyunun süreçleri. </p>
+<p>Yetkisiz yönetim bot veya diğer otomatikleştirilmiş (yarı-otomatik) programının oluşturulması ve lansmanı ( tanıtımı ), Kullanıcı hesabına veya diğer hesaplara yönelik, pompalama ve (veya) hesabınızın zenginleştirme işlemlerinin yanı sıra sohbet oyunlarına yönelik eylemlerin uygulanmasını amaçlayan herhangi bir kanunu taahhüt eder.</p>
+<h3>ÇALMA</h3>
+<p>Üçüncü bir şahısın hesabınıza erişmesi durumunda, üçüncü şahıs veya şahışların oyun hesaplarına haksız maden aktarılması ve filo kırdırmak yasaktır. Hesap ve hırsızlık (veya hesabınıza kayıtlı e-posta adresi) hesabınıza veya aldatma (veya kötüye) hesabının sahibi, çalıntı özellik iade değil seçerek mülkün kaybı durumunda.  </p>
+<h3>İŞLEM HESAPLARI</h3>
+<p>
+Hesabınızın (ler) ve/veya ücret ve/veya ücret için başkalarına erişiminin yanı sıra bu tür eylemleri işlemek amacıyla ilgili bilgilerin yayılmasını yasakladı.</p>
+<h3>OYUN KAYNAKLARI</h3>
+<p>
+Ticaret (alış ve/veya satış) oyun nesneleri ve kaynakların gerçek para yanı sıra kaçakçılık reklamı yasaktır. Herhangi bir ticari reklam yasaktır. Bu herhangi bir dolandırıcılık veya teşebbüs, doğrudan veya dolaylı olarak oyun nesneleri veya kaynakları ile ilgili yasaktır.
+</p>
+
+<h3>DİĞER KOŞULLAR</h3>
+<p>
+<b>Bu ve oyunun kurallarının diğer ihlalleri için Kullanıcı önceden bildirimde bulunmaksızın, işlevsel oyunları reddedebilir veya bu işlevsellik kısmen sınırlandırılmış olabilir.</b><b><br> </b><b>Yönetim, suçun ciddiyetine bağlı olarak maddelerin ihlal edilmesi cezasını değiştirme hakkını saklı tutar.</b>
+</p>

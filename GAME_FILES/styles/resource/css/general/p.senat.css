@@ -1,0 +1,118 @@
+/*seant*/
+#senat-content{
+	position:absolute;
+	left:0; top:0;
+	right:0; bottom:0;
+	overflow:auto;
+}
+.seant-box{
+	position:relative;
+	margin-top:10px;
+	width:700px;
+	height:150px;
+	overflow:hidden;
+	background:rgba(115,205,250,0.10);
+}
+.seant-img{
+	position:absolute;
+	left:0; 
+	right:0;
+	top:25px; 
+	bottom:15px;
+	width:95px;
+	height:95px;
+	background-size:contain;
+	z-index:1;
+}
+.seant-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif; 
+	position:absolute;
+	top:0; right:0; left:0;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+50,7db9e8+100&0+0,0.15+50,0+100 */
+	background: -moz-linear-gradient(left, rgba(115,205,250,0) 0%, rgba(115,205,250,0.10) 50%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(115,205,250,0) 0%,rgba(115,205,250,0.10) 50%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(115,205,250,0) 0%,rgba(115,205,250,0.10) 50%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	z-index:10;
+}
+.senat-bottom-bg{
+	position:absolute;
+	bottom:0; right:0; left:0;
+	line-height:31px;
+	height:31px;
+	text-align:center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+50,7db9e8+100&0+0,0.15+50,0+100 */
+	background: -moz-linear-gradient(left, rgba(115,205,250,0.10) 0%, rgba(115,205,250,0.0) 50%, rgba(115,205,250,0.10) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(115,205,250,0.10) 0%,rgba(115,205,250,0.0) 50%,rgba(115,205,250,0.10) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(115,205,250,0.10) 0%,rgba(115,205,250,0.0) 50%,rgba(115,205,250,0.10) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	z-index:1;
+}
+.seant-time{
+	position:absolute;
+	left:0; 
+	right:0;
+	bottom:0;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:150px;
+	z-index:10;
+}
+.senat-bonus, .senat-bonus-next{
+	position:absolute;
+	text-align:right;
+	top:35px;
+	bottom:35px;
+	right:10px;
+	width:260px;
+	line-height:18px;
+	z-index:2;
+}
+.senat-bonus-next{
+	text-align:left;
+	right:auto;
+	left:10px;
+}
+.senat-btn{
+	display:block;
+}
+.senat-btn-up, .senat-btn-recruit{
+	position:absolute;
+	width:220px;
+	height:25px;
+	left:10px;
+	bottom:3px;
+	z-index:2px;
+}
+.senat-btn-recruit{
+	left:auto; 
+	right:10px;
+}
+.senat-input-day{
+	position:absolute;
+	right:10px;
+	bottom:40px;
+	width:100px;
+	height:24px;
+	line-height:24px;
+	z-index:10;
+}
+.senat-label-day{
+	float:left;
+	margin-left:3px;
+	z-index:1;
+}
+.senat-input-number{
+	display:block;
+	position:absolute;
+	height:100%;
+	width:55px;
+	text-align:center;
+	left:0; top:0;
+	right:0;
+	padding:0 5px 0 45px !important;
+	border:0 !important;
+	background:none !important;
+}

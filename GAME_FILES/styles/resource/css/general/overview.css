@@ -1,0 +1,309 @@
+/*overview*/
+#overview{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow:hidden;
+	z-index:1;
+}
+#ov-planet-mount{
+	width: 40%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: visible;
+	z-index:1;
+}
+#ov-planet{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+	margin-left: auto;
+	margin-right: 0;
+}
+#ov-planet .gl-img{
+	left:auto;
+	background-position: center right;
+}
+/*moon*/
+#ov-moon-mount{
+	width: 8%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 20%;
+	top: 25%;
+	bottom:auto;
+    overflow: visible;
+	z-index:3;
+}
+#ov-moon{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+    overflow: visible;
+	background-position:center right;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+/*debris*/
+#ov-debris-mount{
+	width: 25%;
+    height: 0;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: auto;
+    bottom: 30%;
+    overflow: visible;
+	z-index:2;
+}
+#ov-debris{
+	position: relative;
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -50%;
+    overflow: visible;
+	background-position:center right;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+/*queue*/
+#ov-queue-mount{
+	position:absolute;
+	width:650px;
+	height:345px;
+	top:0; 
+	left:40px;
+	right:auto;
+	bottom:0;
+	z-index:3;
+}
+.ov-queue-btn-box{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	height:20px;
+	line-height:20px;
+	margin-bottom:5px;
+}
+.ov-queue-btn{
+	height:100%;
+	float:left;
+	width:140px;
+	cursor:pointer;
+	padding:0 10px;
+}
+.ov-queue-status{
+	height:100%;
+	float:left;
+	margin-left:5px;
+}
+.ov-queue-status-i{
+	float:left;
+	margin-top:2px;
+	height:16px;
+	width:16px;
+	margin-left:15px;
+}
+/*info*/
+#ov-info-mount{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	position:absolute;
+	right:10px;
+	bottom:60px;
+	z-index:5;
+}
+.ov-info-sep{
+	height:1px;
+	width:100%;
+	background:rgba(255,255,255,0.50)
+}
+.ov-info-head{
+	/*text-align:right;*/
+	width:180px;
+	cursor:pointer !important;
+	padding:0;
+}
+.ov-info-head:before{
+	content: '•••';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:16px;
+	width:25px;
+	text-align:center;
+	-moz-box-shadow: inset 0px 0px 0px 1px  rgba(255,255,255,0.05);
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.05);
+	box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.05);
+	font-weight:bold;
+	text-align:center;
+	background-color:rgba(0,190,230,0.20);
+}
+.ov-info-head:hover:before{
+	color:#01c5f7;
+	background-color:rgba(0,190,230,0.40);
+}
+#ov-i-debris:before{
+	content: '¤';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+.ov-info-block{
+	position:relative;
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	padding-right:20px;
+	cursor:help;
+}
+#ov-i-diameter:before, #ov-i-temp:before, #ov-i-debris:before{
+	content: 'Ø';
+	font-size:14px;
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+#ov-i-temp:before{
+	content: '°C';
+}
+#ov-i-debris:before{
+	content: '¤';
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+#servertime{	
+	font-family: Arial, Geneva, sans-serif;
+	font-size:14px;
+}
+#servertime:before{
+	content: 't';
+	font-size:14px;
+	display: block;
+	position:absolute;
+	right:0; top:0;
+	height:20px;
+	text-align:center;
+}
+/*ov-events*/
+#ov-events{
+	position:absolute;
+	right:0px;
+	top:80px;
+	bottom:80px;
+	width:120px;
+	height:300px;
+	z-index:4;
+}
+.ov-event{
+	display:none;
+	position:relative;
+	width:100%;
+	height:46px;	
+	margin-bottom:3px;
+	cursor:pointer;
+}
+.ov-event-time{
+	position:absolute;
+	right:0px;
+	bottom:0;
+	text-align:center;
+	width:50px;
+	font-size:11px;
+	z-index:3;
+}
+.ov-event-text{	
+	position:absolute;
+	right:30px;
+	left:0; 
+	top:8px;
+	height:20px; 
+	line-height:20px;
+	text-align:right;
+	padding-right:15px;
+	background: rgba(5,195,240,0.60);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	z-index:1;
+}
+#ov-ev-j .ov-event-text{
+	background: rgba(169,52,199,0.60);
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(169,52,199,0.60) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(169,52,199,0.60) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(169,52,199,0.60) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#ov-ev-p .ov-event-text{
+	background: rgba(200,170,50,0.60);
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(200,170,50,0.60) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(200,170,50,0.60) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(200,170,50,0.60) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#ov-ev-t .ov-event-text{
+	background: rgba(200,200,200,0.60);
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(200,200,200,0.60) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(200,200,200,0.60) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(200,200,200,0.60) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#ov-ev-a .ov-event-text{
+	background: rgba(5,195,240,0.60);
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(5,195,240,0.60) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.ov-event-icon{
+	position:absolute;
+	right:10px;
+	top:3px;
+	height:30px;
+	width:30px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	z-index:2;
+}
+/*special-offer*/
+#special-offer{
+	position:absolute;
+	display:none;
+	bottom:60px;
+	right:210px;
+	width:130px;
+	height:100px;
+	padding-left:130px;
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	z-index:100;
+}
+.ov-special-name{
+	position:absolute;
+	right:10px;
+	top:20px;
+	font-size:16px;
+}
+.ov-special-time{
+	position:absolute;
+	right:10px;
+	top:40px;
+}
+/*space*/
+#space{
+	position:absolute;
+	left:0;
+	top:0;
+}

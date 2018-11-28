@@ -1,0 +1,103 @@
+/*color*/
+.c-901, input[type="text"].c-901{color:#c2c8b6;}
+.c-902, input[type="text"].c-902{color:#05c3f1;}
+.c-903, input[type="text"].c-903{color:#afff00;}
+.c-911, input[type="text"].c-911{color:#e09a3a;}
+.c-921, input[type="text"].c-921{color:#e770ff;}
+.c-931, input[type="text"].c-931{color:#dd3147;}
+.c-941, input[type="text"].c-941{color:#05c3f1;}
+.c-942, input[type="text"].c-942{color:#ffff00;}
+.c-800{color:#e0c163;}
+.c-999{color:#ffffff;}
+.c-000{color:#000000;}
+.c-qs{color:#c2c8b6;}
+.c-qr{color:#05c3f1;}
+.c-qb{color:#e09a3a;}
+.c-red{color:#E03939;}
+.c-green{color:#8fd000;}
+.c-smoke{color:rgba(200,200,200,1.00);}
+.c-gold{color:rgba(200,170,50,1.00);}
+/*i*/
+.i-0{background-color:rgba(255,255,255,1.00);}
+.i-000{background-color:rgba(0,0,0,1.00);}
+.i-901{background-color:rgba(194,200,182,1.00);}
+.i-902{background-color:rgba(5,195,241,1.00);}
+.i-903{background-color:rgba(175,255,0,1.00);}
+.i-911{background-color:rgba(225,155,60,1.00);}
+.i-921{background-color:rgba(231,112,255,1.00);}
+.i-931{background-color:rgba(221,49,71,1.00);}
+.i-941{background-color:rgba(5,195,241,1.00);}
+.i-942{background-color:rgba(255,255,0,1.00);}
+.i-800{background-color:rgba(225,195,100,1.00);}
+.i-999{background-color:rgba(255,255,255,1.00);}
+.i-qs{background-color:rgba(194,200,182,1.00);}
+.i-qr{background-color:rgba(5,195,241,1.00);}
+.i-qb{background-color:rgba(224,154,58,1.00);}
+.i-time{background-color:rgba(255,255,255,1.00);}
+.i-down{background-color:rgba(255,255,255,0.60);}
+.i-vk-pay{background-color:rgba(74,118,168,1.00)}
+/*divizions*/
+.c-d0{color:#A6A6A6;}
+.c-d1{color:#d35eff;}
+.c-d2{color:#e0c163;}
+.c-d3{color:#00e8e8;}
+.c-d4{color:#ffa45e;}
+.c-d5{color:#ffffff;}
+/*bg*/
+.bg-none{background:none !important;}
+.bg-902{background-color:rgba(5,195,240,1.00);}
+.bg-911{background-color:rgba(225,155,60,1.00);}
+.bg-smoke{background-color:rgba(200,200,200,1.00);}
+.bg-gold{background-color:rgba(200,170,50,1.00);}
+.bg-dm{background-color:rgba(169,52,199,1.00);}
+.bg-gold{background-color:rgba(200,170,50,1.00);}
+
+/*Bga color*/
+.bga-0{background-color:rgba(255,255,255,1.00);}
+.bga-000{background-color:rgba(0,0,0,0.70);}
+.bga-901{background-color:rgba(194,200,182,0.20);}
+.bga-902{background-color:rgba(5,195,240,0.20);}
+.bga-903{background-color:rgba(175,255,0,0.20);}
+.bga-911{background-color:rgba(224,154,58,0.20);}
+.bga-921{background-color:rgba(231,112,255,0.20);}
+.bga-qs{background-color:rgba(194,200,182,0.20);} 	.bga-qs:hover{background-color:rgba(194,200,182,0.40);}
+.bga-qr{background-color:rgba(5,195,241,0.20);}		.bga-qr:hover{background-color:rgba(5,195,241,0.40);}
+.bga-qb{background-color:rgba(224,154,58,0.20);}	.bga-qb:hover{background-color:rgba(224,154,58,0.40);}
+.bga-i{background-color:rgba(255,255,255,0.50);}	.bga-i:hover{background-color:rgba(255,255,255,0.90);}
+.bga-x{background-color:rgba(224,57,57,0.50);}		.bga-x:hover{background-color:rgba(224,57,57,0.90);}
+.bga-br{background-color:rgba(224,57,57,0.50);}		.bga-br:hover{background-color:rgba(224,57,57,0.90);}
+.bga-tn{background-color:rgba(5,195,241,0.20);}
+.bga-b {background-color:rgba(5,195,240,0.05);}
+.bga-b2{background-color:rgba(5,195,240,0.15);}
+.bga-b3{background-color:rgba(5,195,240,0.60);}
+.bga-red{background-color:rgba(250,50,50,0.70);}
+.bga-red2{background-color:rgba(225,75,75,0.20);}
+.bga-smoke{background-color:rgba(200,200,200,0.10);}
+.bga-level{background-color:rgba(255,255,255,0.40);}
+
+/*diplo*/
+.c-diplo-0{color:#fff;}
+.c-diplo-1{color:#FFDEAD;}
+.c-diplo-2{color:#abe171;}
+.c-diplo-3{color:#CDAD00;}
+.c-diplo-4{color:#D2691E;}
+.c-diplo-5{color:#f25858;}
+.c-diplo-6{color:#abe171;}
+.c-diplo-100{color:#05c3f1;}
+/*bg-g*/
+.bg-g-b{
+	background:rgba(5,195,240,0.10);	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+60,0.65+60,0+100 */
+	background: -moz-linear-gradient(top,  	 rgba(5,195,240,0.10) 0%, rgba(5,195,240, 0.07) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(5,195,240,0.10) 0%, rgba(5,195,240, 0.07) 85%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,   rgba(5,195,240,0.10) 0%, rgba(5,195,240, 0.07) 85%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.bg-g-b2{
+	background:rgba(5,195,240,0.10);	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+60,0.65+60,0+100 */
+	background: -moz-linear-gradient(top,  	 rgba(5,195,240,0.05) 0%, rgba(5,195,240, 0.02) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(5,195,240,0.05) 0%, rgba(5,195,240, 0.02) 85%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,   rgba(5,195,240,0.05) 0%, rgba(5,195,240, 0.02) 85%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}

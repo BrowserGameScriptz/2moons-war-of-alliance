@@ -1,0 +1,331 @@
+/*ico*/
+/*build*/
+.i-u1{background-image:url(../../images/units/1.png);}
+.i-u2{background-image:url(../../images/units/2.png);}
+.i-u3{background-image:url(../../images/units/3.png);}
+.i-u4{background-image:url(../../images/units/4.png);}
+.i-u6{background-image:url(../../images/units/6.png);}
+.i-u12{background-image:url(../../images/units/12.png);}
+.i-u14{background-image:url(../../images/units/14.png);}
+.i-u15{background-image:url(../../images/units/15.png);}
+.i-u16{background-image:url(../../images/units/16.png);}
+.i-u21{background-image:url(../../images/units/21.png);}
+.i-u22{background-image:url(../../images/units/22.png);}
+.i-u23{background-image:url(../../images/units/23.png);}
+.i-u24{background-image:url(../../images/units/24.png);}
+.i-u29{background-image:url(../../images/units/29.png);}
+.i-u31{background-image:url(../../images/units/31.png);}
+.i-u33{background-image:url(../../images/units/33.png);}
+.i-u34{background-image:url(../../images/units/34.png);}
+.i-u44{background-image:url(../../images/units/44.png);}
+.i-u51{background-image:url(../../images/units/51.png);}
+.i-u52{background-image:url(../../images/units/52.png);}
+.i-u53{background-image:url(../../images/units/53.png);}
+/*monbuild*/
+.i-u41{background-image:url(../../images/units/41.png);}
+.i-u42{background-image:url(../../images/units/42.png);}
+.i-u43{background-image:url(../../images/units/43.png);}
+.i-u69{background-image:url(../../images/units/69.png);}
+/*fleet*/
+.i-u210{background-image:url(../../images/units/201.png);}
+.i-u212{background-image:url(../../images/units/202.png);}
+.i-u202{background-image:url(../../images/units/203.png);}
+.i-u209{background-image:url(../../images/units/204.png);}
+.i-u203{background-image:url(../../images/units/205.png);}
+.i-u208{background-image:url(../../images/units/206.png);}
+.i-u204{background-image:url(../../images/units/210.png);}
+.i-u205{background-image:url(../../images/units/211.png);}
+.i-u229{background-image:url(../../images/units/212.png);}
+.i-u206{background-image:url(../../images/units/220.png);}
+.i-u207{background-image:url(../../images/units/221.png);}
+.i-u215{background-image:url(../../images/units/222.png);}
+.i-u213{background-image:url(../../images/units/223.png);}
+.i-u211{background-image:url(../../images/units/224.png);}
+.i-u224{background-image:url(../../images/units/225.png);}
+.i-u214{background-image:url(../../images/units/230.png);}
+.i-u225{background-image:url(../../images/units/231.png);}
+.i-u216{background-image:url(../../images/units/232.png);}
+.i-u218{background-image:url(../../images/units/233.png);}
+.i-u226{background-image:url(../../images/units/234.png);}
+.i-u230{background-image:url(../../images/units/236.png);}
+.i-u222{background-image:url(../../images/units/238.png);}
+.i-u221{background-image:url(../../images/units/237.png);}
+.i-u231{background-image:url(../../images/units/242.png);}
+.i-u232{background-image:url(../../images/units/240.png);}
+.i-u233{background-image:url(../../images/units/241.png);}
+.i-u235{background-image:url(../../images/units/235.png);}
+/*defender*/
+.i-u407{background-image:url(../../images/units/401.png);}
+.i-u408{background-image:url(../../images/units/402.png);}
+.i-u409{background-image:url(../../images/units/403.png);}
+.i-u402{background-image:url(../../images/units/410.png);}
+.i-u403{background-image:url(../../images/units/411.png);}
+.i-u420{background-image:url(../../images/units/440.png);}
+.i-u405{background-image:url(../../images/units/420.png);}
+.i-u404{background-image:url(../../images/units/421.png);}
+.i-u412{background-image:url(../../images/units/422.png);}
+.i-u406{background-image:url(../../images/units/423.png);}
+.i-u416{background-image:url(../../images/units/424.png);}
+.i-u421{background-image:url(../../images/units/441.png);}
+.i-u417{background-image:url(../../images/units/430.png);}
+.i-u410{background-image:url(../../images/units/431.png);}
+.i-u413{background-image:url(../../images/units/432.png);}
+.i-u418{background-image:url(../../images/units/433.png);}
+.i-u419{background-image:url(../../images/units/434.png);}
+.i-u422{background-image:url(../../images/units/442.png);}
+.i-u415{background-image:url(../../images/units/436.png);}
+.i-u414{background-image:url(../../images/units/414.png);}
+.i-u423{background-image:url(../../images/units/437.png);}
+.i-u443{background-image:url(../../images/units/443.png);}
+.i-u430{background-image:url(../../images/units/435.png);}
+.i-u434{background-image:url(../../images/units/438.png);}
+.i-u435{background-image:url(../../images/units/439.png);}
+/*tech*/
+/*101*/
+.i-u101 {background-image:url(../../images/tech/icons/101.png);}
+.i-u101g{background-image:url(../../images/tech/icons/101g.png);}
+.i-u101b{background-image:url(../../images/tech/icons/101b.png);}
+/*102*/
+.i-u102 {background-image:url(../../images/tech/icons/102.png);}
+.i-u102g{background-image:url(../../images/tech/icons/102g.png);}
+.i-u102b{background-image:url(../../images/tech/icons/102b.png);}
+/*103*/
+.i-u106 {background-image:url(../../images/tech/icons/103.png);}
+.i-u106g{background-image:url(../../images/tech/icons/103g.png);}
+.i-u106b{background-image:url(../../images/tech/icons/103b.png);}
+/*104*/
+.i-u113 {background-image:url(../../images/tech/icons/104.png);}
+.i-u113g{background-image:url(../../images/tech/icons/104g.png);}
+.i-u113b{background-image:url(../../images/tech/icons/104b.png);}
+/*1xx*/
+.i-u103 {background-image:url(../../images/tech/icons/110.png);}
+.i-u103g{background-image:url(../../images/tech/icons/110g.png);}
+.i-u103b{background-image:url(../../images/tech/icons/110b.png);}
+/*111*/
+.i-u104 {background-image:url(../../images/tech/icons/111.png);}
+.i-u104g{background-image:url(../../images/tech/icons/111g.png);}
+.i-u104b{background-image:url(../../images/tech/icons/111b.png);}
+/*112*/
+.i-u112 {background-image:url(../../images/tech/icons/112.png);}
+.i-u112g{background-image:url(../../images/tech/icons/112g.png);}
+.i-u112b{background-image:url(../../images/tech/icons/112b.png);}
+/*120*/
+.i-u154 {background-image:url(../../images/tech/icons/120.png);}
+.i-u154g{background-image:url(../../images/tech/icons/120g.png);}
+.i-u154b{background-image:url(../../images/tech/icons/120b.png);}
+/*121*/
+.i-u124 {background-image:url(../../images/tech/icons/121.png);}
+.i-u124g{background-image:url(../../images/tech/icons/121g.png);}
+.i-u124b{background-image:url(../../images/tech/icons/121b.png);}
+/*122*/
+.i-u153 {background-image:url(../../images/tech/icons/122.png);}
+.i-u153g{background-image:url(../../images/tech/icons/122g.png);}
+.i-u153b{background-image:url(../../images/tech/icons/122b.png);}
+/*123*/
+.i-u152 {background-image:url(../../images/tech/icons/123.png);}
+.i-u152g{background-image:url(../../images/tech/icons/123g.png);}
+.i-u152b{background-image:url(../../images/tech/icons/123b.png);}
+/*124*/
+.i-u151 {background-image:url(../../images/tech/icons/124.png);}
+.i-u151g{background-image:url(../../images/tech/icons/124g.png);}
+.i-u151b{background-image:url(../../images/tech/icons/124b.png);}
+/*125*/
+.i-u156 {background-image:url(../../images/tech/icons/125.png);}
+.i-u156g{background-image:url(../../images/tech/icons/125g.png);}
+.i-u156b{background-image:url(../../images/tech/icons/125b.png);}
+/*126*/
+.i-u157 {background-image:url(../../images/tech/icons/126.png);}
+.i-u157g{background-image:url(../../images/tech/icons/126g.png);}
+.i-u157b{background-image:url(../../images/tech/icons/126b.png);}
+/*127*/
+.i-u158 {background-image:url(../../images/tech/icons/127.png);}
+.i-u158g{background-image:url(../../images/tech/icons/127g.png);}
+.i-u158b{background-image:url(../../images/tech/icons/127b.png);}
+/*130*/
+.i-u110 {background-image:url(../../images/tech/icons/130.png);}
+.i-u110g{background-image:url(../../images/tech/icons/130g.png);}
+.i-u110b{background-image:url(../../images/tech/icons/130b.png);}
+/*131*/
+.i-u171 {background-image:url(../../images/tech/icons/131.png);}
+.i-u171g{background-image:url(../../images/tech/icons/131g.png);}
+.i-u171b{background-image:url(../../images/tech/icons/131b.png);}
+/*132*/
+.i-u172 {background-image:url(../../images/tech/icons/132.png);}
+.i-u172g{background-image:url(../../images/tech/icons/132g.png);}
+.i-u172b{background-image:url(../../images/tech/icons/132b.png);}
+/*133*/
+.i-u173 {background-image:url(../../images/tech/icons/133.png);}
+.i-u173g{background-image:url(../../images/tech/icons/133g.png);}
+.i-u173b{background-image:url(../../images/tech/icons/133b.png);}
+/*134*/
+.i-u174 {background-image:url(../../images/tech/icons/134.png);}
+.i-u174g{background-image:url(../../images/tech/icons/134g.png);}
+.i-u174b{background-image:url(../../images/tech/icons/134b.png);}
+/*140*/
+.i-u111 {background-image:url(../../images/tech/icons/140.png);}
+.i-u111g{background-image:url(../../images/tech/icons/140g.png);}
+.i-u111b{background-image:url(../../images/tech/icons/140b.png);}
+/*141*/
+.i-u141 {background-image:url(../../images/tech/icons/141.png);}
+.i-u141g{background-image:url(../../images/tech/icons/141g.png);}
+.i-u141b{background-image:url(../../images/tech/icons/141b.png);}
+/*142*/
+.i-u142 {background-image:url(../../images/tech/icons/142.png);}
+.i-u142g{background-image:url(../../images/tech/icons/142g.png);}
+.i-u142b{background-image:url(../../images/tech/icons/142b.png);}
+/*143*/
+.i-u143 {background-image:url(../../images/tech/icons/143.png);}
+.i-u143g{background-image:url(../../images/tech/icons/143g.png);}
+.i-u143b{background-image:url(../../images/tech/icons/143b.png);}
+/*144*/
+.i-u144 {background-image:url(../../images/tech/icons/144.png);}
+.i-u144g{background-image:url(../../images/tech/icons/144g.png);}
+.i-u144b{background-image:url(../../images/tech/icons/144b.png);}
+/*150*/
+.i-u109 {background-image:url(../../images/tech/icons/150.png);}
+.i-u109g{background-image:url(../../images/tech/icons/150g.png);}
+.i-u109b{background-image:url(../../images/tech/icons/150b.png);}
+/*151*/
+.i-u120 {background-image:url(../../images/tech/icons/151.png);}
+.i-u120g{background-image:url(../../images/tech/icons/151g.png);}
+.i-u120b{background-image:url(../../images/tech/icons/151b.png);}
+/*152*/
+.i-u121 {background-image:url(../../images/tech/icons/152.png);}
+.i-u121g{background-image:url(../../images/tech/icons/152g.png);}
+.i-u121b{background-image:url(../../images/tech/icons/152b.png);}
+/*153*/
+.i-u122 {background-image:url(../../images/tech/icons/153.png);}
+.i-u122g{background-image:url(../../images/tech/icons/153g.png);}
+.i-u122b{background-image:url(../../images/tech/icons/153b.png);}
+/*154*/
+.i-u199 {background-image:url(../../images/tech/icons/154.png);}
+.i-u199g{background-image:url(../../images/tech/icons/154g.png);}
+.i-u199b{background-image:url(../../images/tech/icons/154b.png);}
+/*155*/
+.i-u155 {background-image:url(../../images/tech/icons/155.png);}
+.i-u155g{background-image:url(../../images/tech/icons/155g.png);}
+.i-u155b{background-image:url(../../images/tech/icons/155b.png);}
+/*160*/
+.i-u105 {background-image:url(../../images/tech/icons/160.png);}
+.i-u105g{background-image:url(../../images/tech/icons/160g.png);}
+.i-u105b{background-image:url(../../images/tech/icons/160b.png);}
+/*161*/
+.i-u115 {background-image:url(../../images/tech/icons/161.png);}
+.i-u115g{background-image:url(../../images/tech/icons/161g.png);}
+.i-u115b{background-image:url(../../images/tech/icons/161b.png);}
+/*162*/
+.i-u117 {background-image:url(../../images/tech/icons/162.png);}
+.i-u117g{background-image:url(../../images/tech/icons/162g.png);}
+.i-u117b{background-image:url(../../images/tech/icons/162b.png);}
+/*163*/
+.i-u116 {background-image:url(../../images/tech/icons/163.png);}
+.i-u116g{background-image:url(../../images/tech/icons/163g.png);}
+.i-u116b{background-image:url(../../images/tech/icons/163b.png);}
+/*164*/
+.i-u118 {background-image:url(../../images/tech/icons/164.png);}
+.i-u118g{background-image:url(../../images/tech/icons/164g.png);}
+.i-u118b{background-image:url(../../images/tech/icons/164b.png);}
+/*165*/
+.i-u165 {background-image:url(../../images/tech/icons/165.png);}
+.i-u165g{background-image:url(../../images/tech/icons/165g.png);}
+.i-u165b{background-image:url(../../images/tech/icons/165b.png);}
+/*seant*/
+.i-s602{background-image:url(../../images/senat/701.png);}
+.i-s608{background-image:url(../../images/senat/702.png);}
+.i-s609{background-image:url(../../images/senat/703.png);}
+.i-s601{background-image:url(../../images/senat/704.png);}
+.i-s603{background-image:url(../../images/senat/705.png);}
+.i-s604{background-image:url(../../images/senat/706.png);}
+.i-s613{background-image:url(../../images/senat/707.png);}
+.i-s610{background-image:url(../../images/senat/708.png);}
+.i-s606{background-image:url(../../images/senat/709.png);}
+.i-s605{background-image:url(../../images/senat/710.png);}
+/*achieve*/
+.i-a801{background-image:url(../../images/achieve/801.png);}
+.i-a802{background-image:url(../../images/achieve/802.png);}
+.i-a803{background-image:url(../../images/achieve/803.png);}
+.i-a804{background-image:url(../../images/achieve/804.png);}
+.i-a805{background-image:url(../../images/achieve/805.png);}
+.i-a806{background-image:url(../../images/achieve/806.png);}
+.i-a807{background-image:url(../../images/achieve/807.png);}
+.i-a808{background-image:url(../../images/achieve/808.png);}
+.i-a809{background-image:url(../../images/achieve/809.png);}
+.i-a810{background-image:url(../../images/achieve/810.png);}
+.i-a811{background-image:url(../../images/achieve/811.png);}
+.i-a812{background-image:url(../../images/achieve/812.png);}
+.i-a813{background-image:url(../../images/achieve/813.png);}
+.i-a814{background-image:url(../../images/achieve/814.png);}
+.i-a815{background-image:url(../../images/achieve/815.png);}
+.i-a816{background-image:url(../../images/achieve/816.png);}
+.i-a817{background-image:url(../../images/achieve/817.png);}
+.i-a818{background-image:url(../../images/achieve/818.png);}
+.i-a819{background-image:url(../../images/achieve/819.png);}
+.i-a820{background-image:url(../../images/achieve/820.png);}
+.i-a821{background-image:url(../../images/achieve/821.png);}
+.i-a822{background-image:url(../../images/achieve/822.png);}
+.i-a823{background-image:url(../../images/achieve/823.png);}
+.i-a824{background-image:url(../../images/achieve/824.png);}
+.i-a825{background-image:url(../../images/achieve/825.png);}
+.i-a890{background-image:url(../../images/achieve/890.png);}
+.i-a891{background-image:url(../../images/achieve/891.png);}
+/*contracts*/
+.i-c1 {background-image:url(../../images/contracts/1.png);}
+.i-c2 {background-image:url(../../images/contracts/2.png);}
+.i-c3 {background-image:url(../../images/contracts/3.png);}
+.i-c4 {background-image:url(../../images/contracts/4.png);}
+.i-c5 {background-image:url(../../images/contracts/5.png);}
+.i-c6 {background-image:url(../../images/contracts/6.png);}
+.i-c7 {background-image:url(../../images/contracts/7.png);}
+.i-c8 {background-image:url(../../images/contracts/8.png);}
+.i-c9 {background-image:url(../../images/contracts/9.png);}
+.i-c10{background-image:url(../../images/contracts/10.png);}
+.i-c11{background-image:url(../../images/contracts/11.png);}
+.i-c12{background-image:url(../../images/contracts/12.png);}
+.i-c13{background-image:url(../../images/contracts/13.png);}
+.i-c14{background-image:url(../../images/contracts/14.png);}
+.i-c15{background-image:url(../../images/contracts/15.png);}
+.i-c16{background-image:url(../../images/contracts/16.png);}
+.i-c17{background-image:url(../../images/contracts/17.png);}
+.i-c18{background-image:url(../../images/contracts/18.png);}
+.i-c19{background-image:url(../../images/contracts/19.png);}
+.i-c20{background-image:url(../../images/contracts/20.png);}
+.i-c101{background-image:url(../../images/contracts/101.png);}
+.i-c102{background-image:url(../../images/contracts/102.png);}
+.i-c103{background-image:url(../../images/contracts/103.png);}
+.i-c104{background-image:url(../../images/contracts/104.png);}
+.i-c105{background-image:url(../../images/contracts/105.png);}
+.i-c201{background-image:url(../../images/contracts/201.png);}
+/*.i-c202{background-image:url(../../images/contracts/202.png);}
+.i-c203{background-image:url(../../images/contracts/203.png);}
+.i-c204{background-image:url(../../images/contracts/204.png);}*/
+/*ally skills*/
+.i-s1000{background-image:url(../../images/alliance/skills/1000.png);}
+.i-s1101{background-image:url(../../images/alliance/skills/1101.png);}
+.i-s1102{background-image:url(../../images/alliance/skills/1102.png);}
+.i-s1201{background-image:url(../../images/alliance/skills/1201.png);}
+.i-s1202{background-image:url(../../images/alliance/skills/1202.png);}
+.i-s1203{background-image:url(../../images/alliance/skills/1203.png);}
+.i-s1301{background-image:url(../../images/alliance/skills/1301.png);}
+.i-s1302{background-image:url(../../images/alliance/skills/1302.png);}
+.i-s1303{background-image:url(../../images/alliance/skills/1303.png);}
+.i-s1304{background-image:url(../../images/alliance/skills/1304.png);}
+.i-s1401{background-image:url(../../images/alliance/skills/1401.png);}
+.i-s1402{background-image:url(../../images/alliance/skills/1402.png);}
+.i-s1403{background-image:url(../../images/alliance/skills/1403.png);}
+.i-s1404{background-image:url(../../images/alliance/skills/1404.png);}
+.i-s1501{background-image:url(../../images/alliance/skills/1501.png);}
+.i-s1502{background-image:url(../../images/alliance/skills/1502.png);}
+.i-s1503{background-image:url(../../images/alliance/skills/1503.png);}
+.i-s1504{background-image:url(../../images/alliance/skills/1504.png);}
+.i-s1601{background-image:url(../../images/alliance/skills/1601.png);}
+.i-s1602{background-image:url(../../images/alliance/skills/1602.png);}
+.i-s1603{background-image:url(../../images/alliance/skills/1603.png);}
+.i-s1604{background-image:url(../../images/alliance/skills/1604.png);}
+.i-s1701{background-image:url(../../images/alliance/skills/1701.png);}
+.i-s1702{background-image:url(../../images/alliance/skills/1702.png);}
+.i-s1703{background-image:url(../../images/alliance/skills/1703.png);}
+.i-s1704{background-image:url(../../images/alliance/skills/1704.png);}
+.i-s1801{background-image:url(../../images/alliance/skills/1801.png);}
+.i-s1802{background-image:url(../../images/alliance/skills/1802.png);}
+.i-s1803{background-image:url(../../images/alliance/skills/1803.png);}
+.i-s1804{background-image:url(../../images/alliance/skills/1804.png);}

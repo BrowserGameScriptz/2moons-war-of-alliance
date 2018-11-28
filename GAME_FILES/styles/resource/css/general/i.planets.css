@@ -1,0 +1,280 @@
+/*Planet
+/*moon*/
+.i-p-m1 {background-image:url(../../images/planets/m1.png);}
+/*1 Embered | em*/
+.i-p-em1 {background-image:url(../../images/planets/em1.png);}
+.i-p-em2 {background-image:url(../../images/planets/em2.png);}
+.i-p-em3 {background-image:url(../../images/planets/em3.png);}
+.i-p-em4 {background-image:url(../../images/planets/em4.png);}
+.i-p-em5 {background-image:url(../../images/planets/em5.png);}
+.i-p-em6 {background-image:url(../../images/planets/em6.png);}
+.i-p-em7 {background-image:url(../../images/planets/em7.png);}
+.i-p-em8 {background-image:url(../../images/planets/em8.png);}
+.i-p-em9 {background-image:url(../../images/planets/em9.png);}
+.i-p-em10{background-image:url(../../images/planets/em10.png);}
+/*2 Volcanic | vo*/
+.i-p-vo1 {background-image:url(../../images/planets/vo1.png);}
+.i-p-vo2 {background-image:url(../../images/planets/vo2.png);}
+.i-p-vo3 {background-image:url(../../images/planets/vo3.png);}
+.i-p-vo4 {background-image:url(../../images/planets/vo4.png);}
+.i-p-vo5 {background-image:url(../../images/planets/vo5.png);}
+.i-p-vo6 {background-image:url(../../images/planets/vo6.png);}
+.i-p-vo7 {background-image:url(../../images/planets/vo7.png);}
+.i-p-vo8 {background-image:url(../../images/planets/vo8.png);}
+.i-p-vo9 {background-image:url(../../images/planets/vo9.png);}
+.i-p-vo10{background-image:url(../../images/planets/vo10.png);}
+/*3 Deserted | de*/
+.i-p-de1 {background-image:url(../../images/planets/de1.png);}
+.i-p-de2 {background-image:url(../../images/planets/de2.png);}
+.i-p-de3 {background-image:url(../../images/planets/de3.png);}
+.i-p-de4 {background-image:url(../../images/planets/de4.png);}
+.i-p-de5 {background-image:url(../../images/planets/de5.png);}
+.i-p-de6 {background-image:url(../../images/planets/de6.png);}
+.i-p-de7 {background-image:url(../../images/planets/de7.png);}
+.i-p-de8 {background-image:url(../../images/planets/de8.png);}
+.i-p-de9 {background-image:url(../../images/planets/de9.png);}
+.i-p-de10{background-image:url(../../images/planets/de10.png);}
+/*4 Infertile | in*/
+.i-p-in1 {background-image:url(../../images/planets/in1.png);}
+.i-p-in2 {background-image:url(../../images/planets/in2.png);}
+.i-p-in3 {background-image:url(../../images/planets/in3.png);}
+.i-p-in4 {background-image:url(../../images/planets/in4.png);}
+.i-p-in5 {background-image:url(../../images/planets/in5.png);}
+.i-p-in6 {background-image:url(../../images/planets/in6.png);}
+.i-p-in7 {background-image:url(../../images/planets/in7.png);}
+.i-p-in8 {background-image:url(../../images/planets/in8.png);}
+.i-p-in9 {background-image:url(../../images/planets/in9.png);}
+.i-p-in10{background-image:url(../../images/planets/in10.png);}
+/*5 Arid | ar*/
+.i-p-ar1 {background-image:url(../../images/planets/ar1.png);}
+.i-p-ar2 {background-image:url(../../images/planets/ar2.png);}
+.i-p-ar3 {background-image:url(../../images/planets/ar3.png);}
+.i-p-ar4 {background-image:url(../../images/planets/ar4.png);}
+.i-p-ar5 {background-image:url(../../images/planets/ar5.png);}
+.i-p-ar6 {background-image:url(../../images/planets/ar6.png);}
+.i-p-ar7 {background-image:url(../../images/planets/ar7.png);}
+.i-p-ar8 {background-image:url(../../images/planets/ar8.png);}
+.i-p-ar9 {background-image:url(../../images/planets/ar9.png);}
+.i-p-ar10{background-image:url(../../images/planets/ar10.png);}
+/*6 Earthly | ea*/
+.i-p-ea1 {background-image:url(../../images/planets/ea1.png);}
+.i-p-ea2 {background-image:url(../../images/planets/ea2.png);}
+.i-p-ea3 {background-image:url(../../images/planets/ea3.png);}
+.i-p-ea4 {background-image:url(../../images/planets/ea4.png);}
+.i-p-ea5 {background-image:url(../../images/planets/ea5.png);}
+.i-p-ea6 {background-image:url(../../images/planets/ea6.png);}
+.i-p-ea7 {background-image:url(../../images/planets/ea7.png);}
+.i-p-ea8 {background-image:url(../../images/planets/ea8.png);}
+.i-p-ea9 {background-image:url(../../images/planets/ea9.png);}
+.i-p-ea10{background-image:url(../../images/planets/ea10.png);}
+/*7 Swampy | sw*/
+.i-p-sw1 {background-image:url(../../images/planets/sw1.png);}
+.i-p-sw2 {background-image:url(../../images/planets/sw2.png);}
+.i-p-sw3 {background-image:url(../../images/planets/sw3.png);}
+.i-p-sw4 {background-image:url(../../images/planets/sw4.png);}
+.i-p-sw5 {background-image:url(../../images/planets/sw5.png);}
+.i-p-sw6 {background-image:url(../../images/planets/sw6.png);}
+.i-p-sw7 {background-image:url(../../images/planets/sw7.png);}
+.i-p-sw8 {background-image:url(../../images/planets/sw8.png);}
+.i-p-sw9 {background-image:url(../../images/planets/sw9.png);}
+.i-p-sw10{background-image:url(../../images/planets/sw10.png);}
+/*8 Oceanic | oc*/
+.i-p-oc1 {background-image:url(../../images/planets/oc1.png);}
+.i-p-oc2 {background-image:url(../../images/planets/oc2.png);}
+.i-p-oc3 {background-image:url(../../images/planets/oc3.png);}
+.i-p-oc4 {background-image:url(../../images/planets/oc4.png);}
+.i-p-oc5 {background-image:url(../../images/planets/oc5.png);}
+.i-p-oc6 {background-image:url(../../images/planets/oc6.png);}
+.i-p-oc7 {background-image:url(../../images/planets/oc7.png);}
+.i-p-oc8 {background-image:url(../../images/planets/oc8.png);}
+.i-p-oc9 {background-image:url(../../images/planets/oc9.png);}
+.i-p-oc10{background-image:url(../../images/planets/oc10.png);}
+/*9 Tundra | tu*/
+.i-p-tu1 {background-image:url(../../images/planets/tu1.png);}
+.i-p-tu2 {background-image:url(../../images/planets/tu2.png);}
+.i-p-tu3 {background-image:url(../../images/planets/tu3.png);}
+.i-p-tu4 {background-image:url(../../images/planets/tu4.png);}
+.i-p-tu5 {background-image:url(../../images/planets/tu5.png);}
+.i-p-tu6 {background-image:url(../../images/planets/tu6.png);}
+.i-p-tu7 {background-image:url(../../images/planets/tu7.png);}
+.i-p-tu8 {background-image:url(../../images/planets/tu8.png);}
+.i-p-tu9 {background-image:url(../../images/planets/tu9.png);}
+.i-p-tu10{background-image:url(../../images/planets/tu10.png);}
+/*10 Toxic | to*/
+.i-p-to1 {background-image:url(../../images/planets/to1.png);}
+.i-p-to2 {background-image:url(../../images/planets/to2.png);}
+.i-p-to3 {background-image:url(../../images/planets/to3.png);}
+.i-p-to4 {background-image:url(../../images/planets/to4.png);}
+.i-p-to5 {background-image:url(../../images/planets/to5.png);}
+.i-p-to6 {background-image:url(../../images/planets/to6.png);}
+.i-p-to7 {background-image:url(../../images/planets/to7.png);}
+.i-p-to8 {background-image:url(../../images/planets/to8.png);}
+.i-p-to9 {background-image:url(../../images/planets/to9.png);}
+.i-p-to10{background-image:url(../../images/planets/to10.png);}
+/*11 Cold | co*/
+.i-p-co1 {background-image:url(../../images/planets/co1.png);}
+.i-p-co2 {background-image:url(../../images/planets/co2.png);}
+.i-p-co3 {background-image:url(../../images/planets/co3.png);}
+.i-p-co4 {background-image:url(../../images/planets/co4.png);}
+.i-p-co5 {background-image:url(../../images/planets/co5.png);}
+.i-p-co6 {background-image:url(../../images/planets/co6.png);}
+.i-p-co7 {background-image:url(../../images/planets/co7.png);}
+.i-p-co8 {background-image:url(../../images/planets/co8.png);}
+.i-p-co9 {background-image:url(../../images/planets/co9.png);}
+.i-p-co10{background-image:url(../../images/planets/co10.png);}
+/*12 Eternal Frost | ef*/
+.i-p-ef1 {background-image:url(../../images/planets/ef1.png);}
+.i-p-ef2 {background-image:url(../../images/planets/ef2.png);}
+.i-p-ef3 {background-image:url(../../images/planets/ef3.png);}
+.i-p-ef4 {background-image:url(../../images/planets/ef4.png);}
+.i-p-ef5 {background-image:url(../../images/planets/ef5.png);}
+.i-p-ef6 {background-image:url(../../images/planets/ef6.png);}
+.i-p-ef7 {background-image:url(../../images/planets/ef7.png);}
+.i-p-ef8 {background-image:url(../../images/planets/ef8.png);}
+.i-p-ef9 {background-image:url(../../images/planets/ef9.png);}
+.i-p-ef10{background-image:url(../../images/planets/ef10.png);}
+/*Small*/
+.i-p-s-no{background-image:url(../../images/planets/small/no.png);}
+/*1 Embered | em*/
+.i-p-s-em1 {background-image:url(../../images/planets/small/em1.png);}
+.i-p-s-em2 {background-image:url(../../images/planets/small/em2.png);}
+.i-p-s-em3 {background-image:url(../../images/planets/small/em3.png);}
+.i-p-s-em4 {background-image:url(../../images/planets/small/em4.png);}
+.i-p-s-em5 {background-image:url(../../images/planets/small/em5.png);}
+.i-p-s-em6 {background-image:url(../../images/planets/small/em6.png);}
+.i-p-s-em7 {background-image:url(../../images/planets/small/em7.png);}
+.i-p-s-em8 {background-image:url(../../images/planets/small/em8.png);}
+.i-p-s-em9 {background-image:url(../../images/planets/small/em9.png);}
+.i-p-s-em10{background-image:url(../../images/planets/small/em10.png);}
+/*2 Volcanic | vo*/
+.i-p-s-vo1 {background-image:url(../../images/planets/small/vo1.png);}
+.i-p-s-vo2 {background-image:url(../../images/planets/small/vo2.png);}
+.i-p-s-vo3 {background-image:url(../../images/planets/small/vo3.png);}
+.i-p-s-vo4 {background-image:url(../../images/planets/small/vo4.png);}
+.i-p-s-vo5 {background-image:url(../../images/planets/small/vo5.png);}
+.i-p-s-vo6 {background-image:url(../../images/planets/small/vo6.png);}
+.i-p-s-vo7 {background-image:url(../../images/planets/small/vo7.png);}
+.i-p-s-vo8 {background-image:url(../../images/planets/small/vo8.png);}
+.i-p-s-vo9 {background-image:url(../../images/planets/small/vo9.png);}
+.i-p-s-vo10{background-image:url(../../images/planets/small/vo10.png);}
+/*3 Deserted | de*/
+.i-p-s-de1 {background-image:url(../../images/planets/small/de1.png);}
+.i-p-s-de2 {background-image:url(../../images/planets/small/de2.png);}
+.i-p-s-de3 {background-image:url(../../images/planets/small/de3.png);}
+.i-p-s-de4 {background-image:url(../../images/planets/small/de4.png);}
+.i-p-s-de5 {background-image:url(../../images/planets/small/de5.png);}
+.i-p-s-de6 {background-image:url(../../images/planets/small/de6.png);}
+.i-p-s-de7 {background-image:url(../../images/planets/small/de7.png);}
+.i-p-s-de8 {background-image:url(../../images/planets/small/de8.png);}
+.i-p-s-de9 {background-image:url(../../images/planets/small/de9.png);}
+.i-p-s-de10{background-image:url(../../images/planets/small/de10.png);}
+/*4 Infertile | in*/
+.i-p-s-in1 {background-image:url(../../images/planets/small/in1.png);}
+.i-p-s-in2 {background-image:url(../../images/planets/small/in2.png);}
+.i-p-s-in3 {background-image:url(../../images/planets/small/in3.png);}
+.i-p-s-in4 {background-image:url(../../images/planets/small/in4.png);}
+.i-p-s-in5 {background-image:url(../../images/planets/small/in5.png);}
+.i-p-s-in6 {background-image:url(../../images/planets/small/in6.png);}
+.i-p-s-in7 {background-image:url(../../images/planets/small/in7.png);}
+.i-p-s-in8 {background-image:url(../../images/planets/small/in8.png);}
+.i-p-s-in9 {background-image:url(../../images/planets/small/in9.png);}
+.i-p-s-in10{background-image:url(../../images/planets/small/in10.png);}
+/*5 Arid | ar*/
+.i-p-s-ar1 {background-image:url(../../images/planets/small/ar1.png);}
+.i-p-s-ar2 {background-image:url(../../images/planets/small/ar2.png);}
+.i-p-s-ar3 {background-image:url(../../images/planets/small/ar3.png);}
+.i-p-s-ar4 {background-image:url(../../images/planets/small/ar4.png);}
+.i-p-s-ar5 {background-image:url(../../images/planets/small/ar5.png);}
+.i-p-s-ar6 {background-image:url(../../images/planets/small/ar6.png);}
+.i-p-s-ar7 {background-image:url(../../images/planets/small/ar7.png);}
+.i-p-s-ar8 {background-image:url(../../images/planets/small/ar8.png);}
+.i-p-s-ar9 {background-image:url(../../images/planets/small/ar9.png);}
+.i-p-s-ar10{background-image:url(../../images/planets/small/ar10.png);}
+/*6 Earthly | ea*/
+.i-p-s-ea1 {background-image:url(../../images/planets/small/ea1.png);}
+.i-p-s-ea2 {background-image:url(../../images/planets/small/ea2.png);}
+.i-p-s-ea3 {background-image:url(../../images/planets/small/ea3.png);}
+.i-p-s-ea4 {background-image:url(../../images/planets/small/ea4.png);}
+.i-p-s-ea5 {background-image:url(../../images/planets/small/ea5.png);}
+.i-p-s-ea6 {background-image:url(../../images/planets/small/ea6.png);}
+.i-p-s-ea7 {background-image:url(../../images/planets/small/ea7.png);}
+.i-p-s-ea8 {background-image:url(../../images/planets/small/ea8.png);}
+.i-p-s-ea9 {background-image:url(../../images/planets/small/ea9.png);}
+.i-p-s-ea10{background-image:url(../../images/planets/small/ea10.png);}
+/*7 Swampy | sw*/
+.i-p-s-sw1 {background-image:url(../../images/planets/small/sw1.png);}
+.i-p-s-sw2 {background-image:url(../../images/planets/small/sw2.png);}
+.i-p-s-sw3 {background-image:url(../../images/planets/small/sw3.png);}
+.i-p-s-sw4 {background-image:url(../../images/planets/small/sw4.png);}
+.i-p-s-sw5 {background-image:url(../../images/planets/small/sw5.png);}
+.i-p-s-sw6 {background-image:url(../../images/planets/small/sw6.png);}
+.i-p-s-sw7 {background-image:url(../../images/planets/small/sw7.png);}
+.i-p-s-sw8 {background-image:url(../../images/planets/small/sw8.png);}
+.i-p-s-sw9 {background-image:url(../../images/planets/small/sw9.png);}
+.i-p-s-sw10{background-image:url(../../images/planets/small/sw10.png);}
+/*8 Oceanic | oc*/
+.i-p-s-oc1 {background-image:url(../../images/planets/small/oc1.png);}
+.i-p-s-oc2 {background-image:url(../../images/planets/small/oc2.png);}
+.i-p-s-oc3 {background-image:url(../../images/planets/small/oc3.png);}
+.i-p-s-oc4 {background-image:url(../../images/planets/small/oc4.png);}
+.i-p-s-oc5 {background-image:url(../../images/planets/small/oc5.png);}
+.i-p-s-oc6 {background-image:url(../../images/planets/small/oc6.png);}
+.i-p-s-oc7 {background-image:url(../../images/planets/small/oc7.png);}
+.i-p-s-oc8 {background-image:url(../../images/planets/small/oc8.png);}
+.i-p-s-oc9 {background-image:url(../../images/planets/small/oc9.png);}
+.i-p-s-oc10{background-image:url(../../images/planets/small/oc10.png);}
+/*9 Tundra | tu*/
+.i-p-s-tu1 {background-image:url(../../images/planets/small/tu1.png);}
+.i-p-s-tu2 {background-image:url(../../images/planets/small/tu2.png);}
+.i-p-s-tu3 {background-image:url(../../images/planets/small/tu3.png);}
+.i-p-s-tu4 {background-image:url(../../images/planets/small/tu4.png);}
+.i-p-s-tu5 {background-image:url(../../images/planets/small/tu5.png);}
+.i-p-s-tu6 {background-image:url(../../images/planets/small/tu6.png);}
+.i-p-s-tu7 {background-image:url(../../images/planets/small/tu7.png);}
+.i-p-s-tu8 {background-image:url(../../images/planets/small/tu8.png);}
+.i-p-s-tu9 {background-image:url(../../images/planets/small/tu9.png);}
+.i-p-s-tu10{background-image:url(../../images/planets/small/tu10.png);}
+/*10 Toxic | to*/
+.i-p-s-to1 {background-image:url(../../images/planets/small/to1.png);}
+.i-p-s-to2 {background-image:url(../../images/planets/small/to2.png);}
+.i-p-s-to3 {background-image:url(../../images/planets/small/to3.png);}
+.i-p-s-to4 {background-image:url(../../images/planets/small/to4.png);}
+.i-p-s-to5 {background-image:url(../../images/planets/small/to5.png);}
+.i-p-s-to6 {background-image:url(../../images/planets/small/to6.png);}
+.i-p-s-to7 {background-image:url(../../images/planets/small/to7.png);}
+.i-p-s-to8 {background-image:url(../../images/planets/small/to8.png);}
+.i-p-s-to9 {background-image:url(../../images/planets/small/to9.png);}
+.i-p-s-to10{background-image:url(../../images/planets/small/to10.png);}
+/*11 Cold | co*/
+.i-p-s-co1 {background-image:url(../../images/planets/small/co1.png);}
+.i-p-s-co2 {background-image:url(../../images/planets/small/co2.png);}
+.i-p-s-co3 {background-image:url(../../images/planets/small/co3.png);}
+.i-p-s-co4 {background-image:url(../../images/planets/small/co4.png);}
+.i-p-s-co5 {background-image:url(../../images/planets/small/co5.png);}
+.i-p-s-co6 {background-image:url(../../images/planets/small/co6.png);}
+.i-p-s-co7 {background-image:url(../../images/planets/small/co7.png);}
+.i-p-s-co8 {background-image:url(../../images/planets/small/co8.png);}
+.i-p-s-co9 {background-image:url(../../images/planets/small/co9.png);}
+.i-p-s-co10{background-image:url(../../images/planets/small/co10.png);}
+/*12 Eternal Frost | ef*/
+.i-p-s-ef1 {background-image:url(../../images/planets/small/ef1.png);}
+.i-p-s-ef2 {background-image:url(../../images/planets/small/ef2.png);}
+.i-p-s-ef3 {background-image:url(../../images/planets/small/ef3.png);}
+.i-p-s-ef4 {background-image:url(../../images/planets/small/ef4.png);}
+.i-p-s-ef5 {background-image:url(../../images/planets/small/ef5.png);}
+.i-p-s-ef6 {background-image:url(../../images/planets/small/ef6.png);}
+.i-p-s-ef7 {background-image:url(../../images/planets/small/ef7.png);}
+.i-p-s-ef8 {background-image:url(../../images/planets/small/ef8.png);}
+.i-p-s-ef9 {background-image:url(../../images/planets/small/ef9.png);}
+.i-p-s-ef10{background-image:url(../../images/planets/small/ef10.png);}
+/*exped*/
+.i-p-s-ex1 {background-image:url(../../images/planets/small/ex1.png);}
+.i-p-s-ex2 {background-image:url(../../images/planets/small/ex2.png);}
+.i-p-s-ex3 {background-image:url(../../images/planets/small/ex3.png);}
+.i-p-s-ex4 {background-image:url(../../images/planets/small/ex4.png);}
+/*moon*/
+.i-p-s-m1{background-image:url(../../images/planets/small/m1.png);}
+/*Debris*/
+.i-d-1{background-image:url(../../images/planets/debris/d1.png);}
+/*Small*/
+.i-d-s-1{background-image:url(../../images/planets/debris/small/d1.png);}

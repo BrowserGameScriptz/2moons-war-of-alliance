@@ -1,0 +1,105 @@
+/*battlehall*/
+#bh-contint{
+	position:relative;
+	height:100%;
+	width:1000px;
+	overflow:auto;
+}
+.bh-conteiner{
+	width:49%;
+	margin:0px 5px;
+	overflow:hidden;
+}
+.bh-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	font-size:17px;
+	padding:15px 0px;
+	text-align:center;
+}
+.bh-a:hover{
+	background-color:rgba(255,255,255,0.10);
+}
+.bh-rows{
+	position:relative;
+}
+.bh-row{
+	position:relative;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+}
+.bh-row-headr{
+	padding:10px 0px;	
+}
+.bh-row-rank, .bh-row-users, .bh-row-date, .bh-row-units, .bh-row-user, .bh-row-points{
+	position:relative;
+	float:left;	
+	height:100%;
+	text-align:center;
+	margin-right:5px;
+	z-index:1;
+}
+.bh-row-headr .bh-row-rank, .bh-row-headr .bh-row-users, .bh-row-headr .bh-row-date, .bh-row-headr .bh-row-user, .bh-row-headr .bh-row-units, .bh-row-headr .bh-row-points{
+	border-right:1px solid rgba(255,255,255,0.25);
+	margin-right:4px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	cursor:help;
+}
+.bh-row-rank{
+	width:40px;
+}
+.bh-row-users{
+	width:195px
+}
+.bh-row-date{
+	width:120px;
+}
+.bh-row-units, .bh-row-headr .bh-row-units{
+	width:111px;
+	margin:0;
+	border:0;
+}
+.bh-row-users span{
+	display:block;
+	width:85px;
+	overflow:hidden;
+	height:100%;
+}
+.bh-row-user{
+	width:200px;
+}
+.bh-row-points, .bh-row-headr .bh-row-points{
+	width:235px;
+	margin:0;
+	border:0;
+}
+/*bh-rank-*/
+.bh-rank-1{
+	background-color:rgba(5,195,240,0.30);
+}
+.bh-rank-1 .bh-row-rank{
+	background-image:url(../../images/ico/statistics/rank-1.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:contain;
+}
+.bh-rank-2{
+	background-color:rgba(5,195,240,0.20);
+}
+.bh-rank-2 .bh-row-rank{
+	background-image:url(../../images/ico/statistics/rank-2.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:contain;
+}
+.bh-rank-3{
+	background-color:rgba(5,195,240,0.10);
+}
+.bh-rank-3 .bh-row-rank{
+	background-image:url(../../images/ico/statistics/rank-3.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:contain;
+}

@@ -1,0 +1,47 @@
+/*Animation*/ 
+.a-pointer, .a-pointer:after, .a-pointer:before{
+	position:absolute;
+	top:-30px;
+	left:0;
+	right:0;
+	bottom:auto;
+	width:45px;
+	height:25px;
+	background-image:url(../../images/animation/arrow.png);
+}
+.a-pointer:after{
+	content:"";
+	top:-25px;
+	animation: k-flashing 1s infinite alternate linear;
+	animation-delay:0.25s;
+}
+.a-pointer:before{
+	content:"";
+	top:-50px;
+	animation: k-flashing 1s infinite alternate linear;
+	animation-delay:0.5s;
+}
+.a-pointer-t{
+	animation: k-sit-ups-t .7s infinite alternate linear, k-flashing 1s infinite alternate linear;
+}
+.a-pointer-b{
+	animation: k-sit-ups-b .7s infinite alternate linear, k-flashing 1s infinite alternate linear;
+	bottom:-30px;
+	left:0;
+	right:0;
+	top:auto;
+}
+.a-pointer-r{
+	animation: k-sit-ups-r .7s infinite alternate linear, k-flashing 1s infinite alternate linear;
+	bottom:0;
+	left:auto;
+	right:-30px;
+	top:0;
+}
+.a-pointer-l{
+	animation: k-sit-ups-l .7s infinite alternate linear, k-flashing 1s infinite alternate linear;
+	bottom:0;
+	left:-30px;
+	right:auto;
+	top:0;
+}

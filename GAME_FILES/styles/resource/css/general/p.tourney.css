@@ -1,0 +1,74 @@
+/*tourney*/
+#tr-contint{
+	position:absolute;
+	left:0; top:0;
+	right:0; bottom:0;
+}
+#tr-timer{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	position:absolute;
+	left:0;right:0; 
+	top:5px;
+	height:20px;
+	line-height:20px;
+	width:600px;
+}
+#tr-timer span{
+	font-family: Arial, Geneva, sans-serif;
+	float:right;
+}
+#tr-left{
+	position:absolute;
+	left:0; top:0;
+	bottom:0;
+	width:240px;
+	overflow:auto;
+}
+#tr-right{
+	position:absolute;
+	left:240px; top:0px;
+	right:0; bottom:0;
+	overflow:auto;
+}
+.tr-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	margin-bottom:5px;
+}
+.tr-reward{
+	display:none;
+	position:absolute;
+	left:0px; top:0px;
+	right:0px; bottom:0px;
+	overflow:auto;
+}
+.tr-title-division{
+	margin-top:5px;
+	padding:120px 10px 10px 10px;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.tr-division{
+	display:none;
+	margin-top:30px;
+	width:620px;
+}
+.tr-reward-content{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	padding:5px 10px 0px 10px;	
+}
+.tr-reward-content .al-card-option{
+	width:30%;
+	margin:0 3%;
+}
+.bh-row-up-points{
+	float: left; 
+	width:120px;
+	text-align:center;
+}
+.tr-btn-old{
+	position:absolute;	
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	left:0;
+	top:310px;
+}

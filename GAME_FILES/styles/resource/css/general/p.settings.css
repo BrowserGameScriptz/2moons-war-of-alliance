@@ -1,0 +1,53 @@
+/*statistics*/
+#st-settings{
+	width:980px;
+}
+.sg-part{
+	position:relative;
+	width:460px;
+	margin:10px 0;
+	padding:10px;
+	height:250px;
+}
+.sg-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	line-height:25px;
+	margin-bottom:10px;
+}
+.sg-btn-send{
+	width:150px;
+}
+.sg-label{
+	width:55%;
+	line-height:25px;
+	float:left;
+	margin-bottom:15px;
+}
+.sg-select{
+	width:35%;
+	line-height:25px;
+	height:25px;
+	float:right;
+	margin-bottom:15px;
+}
+.sg-in-text{
+	width:35%;
+	line-height:22px;
+	height:22px;
+	float:right;
+	margin-bottom:15px;
+}
+.sg-in-number{
+	width:33%;
+	line-height:22px;
+	height:22px;
+	float:right;
+	margin-bottom:15px;
+}
+.sg-checkbox{
+	line-height:25px;
+	height:25px;
+	width:25px;
+	float:right;
+	margin-bottom:15px;
+}

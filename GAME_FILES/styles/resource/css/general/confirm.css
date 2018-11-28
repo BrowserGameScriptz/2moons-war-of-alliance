@@ -1,0 +1,178 @@
+#confirm{
+	display:none;
+	position:fixed;
+	left:0; right:0;
+	top:0; bottom:0;
+	background:rgba(0,0,0,0.50);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+60,0.65+60,0+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.20) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.20) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.20) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	z-index:9999999;
+}
+#cm-box{
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	width:400px;
+	max-width:100%;
+	height:220px;
+	max-height:100%;
+	color:#DDD;
+    background: rgba(0,0,0,0.85);
+}
+#cm-btn, #cm-btn-true, #cm-btn-false{
+	display:none;
+	position:absolute;
+	width:120px;
+	height:25px;	
+	left:0; right:0;
+	bottom:10px;
+	z-index:5;
+}
+#cm-btn-true{
+	left:auto;
+	right:10px;
+}
+#cm-btn-false{
+	left:10px; 
+	right:auto;
+}
+#cm-closed{
+	position: absolute;
+	top:3px;
+	right:3px;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-size:22px;
+	color:#000000;
+	background:rgba(5,195,241,0.20);
+	text-shadow:none;
+	cursor:pointer;
+	z-index:2;
+}
+#cm-closed:hover{
+	color:#FFFFFF;
+}
+/*Add in Classe*/
+#cm-title{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	text-align:left;
+	font-size:15px;
+	padding-left:10px;
+	height:30px;
+	line-height:34px;
+}
+#cm-content{
+	position:absolute;
+	top:31px;
+	left:0;
+	right:0;
+	bottom:45px;
+	font-size:16px;	
+	padding:10px 10px 0px 10px;
+	overflow:auto;
+	z-index:1;
+}
+.cm-text-depiction{
+	text-align:center;
+	color:#DDD;	
+}
+.cm-text-depiction span{
+	color:#fff;
+}
+/*General Classes*/
+/*cm-alert*/
+.cm-alert #cm-btn{
+	display:block;
+}
+.cm-alert .btn-content{
+	left:0px;
+}
+.cm-alert .btn-ico{
+	display:none;
+}
+/*cm-cost*/
+.cm-cost #cm-btn{
+	display:block;
+}
+/*cm-action*/
+.cm-action #cm-btn-true, .cm-action #cm-btn-false{
+	display:block;
+}
+.cm-action .cm-title, .cm-action .btn-closed{
+	display:none;
+}
+/*cm-captcha*/
+.cm-action .cm-captcha, .cm-action .cm-in-captcha, .cm-action .cm-captcha-reload{
+	display:none;
+}
+.cm-cost .cm-captcha, .cm-cost .cm-in-captcha, .cm-cost .cm-captcha-reload{
+	display:none;
+}
+.cm-captcha #cm-box{
+	width:330px;
+	height:210px;
+}
+.cm-captcha #cm-btn{
+	display:block;
+}
+.cm-captcha .cm-text-depiction{
+	display:none;
+}
+.cm-captcha .btn-content{
+	left:0px;
+}
+.cm-captcha .btn-ico{
+	display:none;
+}
+.cm-captcha #cm-box{
+    background: rgba(0,0,0,1.0);
+}
+.cm-captcha-img{
+	width:100px;
+	height:50px;
+	position:absolute;
+	display:block;	
+	top:auto;
+}
+#captcha0{
+	left:0; 
+	right:0;
+	top:10px;}
+#captcha1, #captcha2, #captcha3{
+	width:80px;
+	left:10px; 
+	right:10px;
+	bottom:10px;
+	cursor:pointer;
+	border-radius:4px;
+	border:1px solid rgba(255,255,255,0.10);
+}
+#captcha1:hover, #captcha2:hover, #captcha3:hover{
+	border:1px solid rgba(255,255,255,0.40);
+}
+#captcha1{
+	right:auto;
+}
+#captcha3{
+	left:auto;
+}
+/*input*/
+.cm-input{
+	display:block;
+	margin:5px auto 10px auto;
+	width:250px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+.cm-label{
+	display:block;
+	width:100%;
+	height:20px;
+	line-height:20px;
+}

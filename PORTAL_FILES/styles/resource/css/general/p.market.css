@@ -1,0 +1,184 @@
+/*market*/
+#gr-conteiner{
+	position:relative;
+	height:100%;
+}
+#gr-left-side{
+	position:absolute;
+	left:0; top:0;
+	bottom:0;
+	width:250px;
+	padding:10px;
+	overflow:auto;
+	z-index:2;
+}
+#gr-content{
+	position:absolute;
+	left:280px; top:0;
+	right:0;
+	bottom:0;
+	padding:10px;
+	overflow:auto;
+	z-index:2;
+}
+#gr-top-menu{
+	position:absolute;
+	left:0;
+	top:0;
+	height:40px;
+	line-height:20px;
+}
+#gr-left-menu{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	overflow:auto;
+}
+.gr-title{
+	font:16px;
+	line-height:22px;
+	border-bottom:1px solid rgba(255,255,255,0.50);
+	margin-bottom:10px;
+}
+.gr-left-menu-a{
+	float:left;
+	text-align:center;
+	display:block;
+	width:80px;
+	height:20px;
+	padding:10px 5px;
+	background-color:rgba(0,190,255,0.10);
+}
+.gr-left-menu-a:hover{
+	color:#fff;
+	background-color:rgba(255,255,255,0.10);
+}
+.gr-left-menu-a-a{
+	background:none;
+}
+.gr-btn{
+	padding: 0 5xp;
+}
+.gr-table{
+	width:715px;
+	float:left;
+	line-height:25px;
+	text-align:center;
+}
+.gr-res-row{
+	text-align:left;
+	height:25px;
+	position:relative;
+	padding-left:27px;
+}
+.gr-res-row-i{
+	position:absolute;
+	height:19px;
+	width:19px;
+	left:2px;
+	top:3px;
+}
+.gr-title-menu{
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	line-height:25px;
+	font-size:13px;
+	margin-top:10px;
+}
+.gr-btn-back{
+	position:absolute;
+	width:70px;
+	top:0;
+	right:0;
+}
+.gr-menu-content{
+	position:absolute;
+	top:35px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow:auto;
+	padding-bottom:30px;
+}
+.gr-btn-menu{
+	position:relative;
+	clear:both;
+	margin-top:10px;
+}
+.gr-lable{
+	display:block;
+	line-height:25px;
+	height:25px;
+	margin-bottom:5px;
+	float:left;
+}
+.gr-lable th{
+	line-height:18px;
+}
+.gr-menu-input{
+	display:block;
+	width:160px;
+	line-height:25px;
+	height:25px;
+	margin-bottom:5px;
+	float:right;
+}
+.gr-creat-lot-lable-l, .gr-creat-lot-lable-r{
+	position:absolute;
+	left:10px;
+	top:10px;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+}
+.gr-creat-lot-lable-r{
+	left:auto;
+	right:10px;
+}
+.gr-creat-lot-select-l, .gr-creat-lot-select-r{
+	position:absolute;
+	left:10px;
+	top:30px;
+	width:100px;
+	height:21px;
+}
+.gr-creat-lot-select-r{
+	left:auto;
+	right:10px;
+}
+.gr-creat-lot-input-l, .gr-creat-lot-input-r{
+	position:absolute;
+	left:10px;
+	top:60px;
+	width:175px;
+	height:21px;
+}
+.gr-creat-lot-input-r{
+	left:auto;
+	right:10px;
+}
+.gr-creat-lot-btn{
+	display:block;
+	margin:0 auto;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0px;
+	width:200px;
+}
+.gr-creat-lot-max{
+	color:#00E4C4;
+	font-family: "BicubikRegular", Arial, Geneva, sans-serif;
+	position:absolute;
+	text-align:center;
+	left:100px;
+	right:100px;
+	top:10px;
+}
+.gr-creat-lot-heed{
+	position:absolute;
+	left:10px;
+	right:10px;
+	bottom:35px;
+	text-align:center;
+	color:rgba(194,194,194,1.00);
+}

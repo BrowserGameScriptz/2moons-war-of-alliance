@@ -1,0 +1,23 @@
+/*keyframes*/ 
+@keyframes bg_slide {
+	0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+@keyframes bg-slide-70 {
+	0% {background-position: 0 0;} 100% {background-position: 70px 0;}
+}
+
+@keyframes k-sit-ups-t {
+	0% {transform: translateY(0);} 100% {transform: translateY(20px);}
+}
+@keyframes k-sit-ups-r {
+	0% {transform:rotate(90deg) translateX(0);} 100% {transform:rotate(90deg) translateY(20px);}
+}
+@keyframes k-sit-ups-b {
+	0% {transform:rotate(180deg) translateY(0);} 100% {transform:rotate(180deg) translateY(20px);}
+}
+@keyframes k-sit-ups-l {
+	0% {transform:rotate(270deg) translateY(0);} 100% {transform:rotate(270deg) translateY(-20px);}
+}
+@keyframes k-flashing {
+	0% {opacity:1;} 100% {opacity:.5;}
+}
